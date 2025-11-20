@@ -40,12 +40,13 @@ I'm a passionate full-stack developer with deep expertise in modern web technolo
 > Native WYSIWYG/Rich Text editor for Angular 6-19+
 
 [![Angular](https://img.shields.io/badge/Angular-6--19%2B-DD0031?style=flat-square&logo=angular&logoColor=white)](https://github.com/kolkov/angular-editor)
+[![npm version](https://img.shields.io/npm/v/@kolkov/angular-editor?style=flat-square&logo=npm)](https://www.npmjs.com/package/@kolkov/angular-editor)
+[![Activity](https://img.shields.io/github/last-commit/kolkov/angular-editor?style=flat-square&logo=github&label=activity)](https://github.com/kolkov/angular-editor/commits)
 [![GitHub stars](https://img.shields.io/github/stars/kolkov/angular-editor?style=flat-square&logo=github)](https://github.com/kolkov/angular-editor/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/kolkov/angular-editor?style=flat-square&logo=github)](https://github.com/kolkov/angular-editor/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/kolkov/angular-editor?style=flat-square&logo=github)](https://github.com/kolkov/angular-editor/issues)
-[![npm version](https://img.shields.io/npm/v/@kolkov/angular-editor?style=flat-square&logo=npm)](https://www.npmjs.com/package/@kolkov/angular-editor)
 
-A lightweight, highly customizable text editor component without external dependencies. Features include visual/HTML modes, image uploads, theming with CSS variables, and full Angular Forms integration.
+A lightweight, highly customizable text editor component without external dependencies. Features include visual/HTML modes, image uploads, theming with CSS variables, and full Angular Forms integration. **Launched:** May 2018
 
 **Tech**: Angular, TypeScript, SCSS | **Status**: Active development
 
@@ -58,11 +59,12 @@ A lightweight, highly customizable text editor component without external depend
 
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/phoenix-tui/phoenix)
 [![Version](https://img.shields.io/badge/version-v0.1.0%20STABLE-brightgreen?style=flat-square)](https://github.com/phoenix-tui/phoenix/releases)
+[![Activity](https://img.shields.io/github/last-commit/phoenix-tui/phoenix?style=flat-square&logo=github&label=activity)](https://github.com/phoenix-tui/phoenix/commits)
 [![GitHub stars](https://img.shields.io/github/stars/phoenix-tui/phoenix?style=flat-square&logo=github)](https://github.com/phoenix-tui/phoenix/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/phoenix-tui/phoenix?style=flat-square&logo=github)](https://github.com/phoenix-tui/phoenix/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/phoenix-tui/phoenix?style=flat-square&logo=github)](https://github.com/phoenix-tui/phoenix/issues)
 
-A next-generation TUI framework featuring Domain-Driven Design architecture, perfect Unicode/emoji support, and Elm-inspired patterns. Achieves 10x performance improvement (29,000 FPS) with differential rendering.
+A next-generation TUI framework featuring Domain-Driven Design architecture, perfect Unicode/emoji support, and Elm-inspired patterns. Achieves 10x performance improvement (29,000 FPS) with differential rendering. **Launched:** October 2025
 
 **Highlights**:
 - 91.8% test coverage
@@ -79,11 +81,12 @@ A next-generation TUI framework featuring Domain-Driven Design architecture, per
 
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/scigolib/hdf5)
 [![Version](https://img.shields.io/badge/version-v0.13.0-blue?style=flat-square)](https://github.com/scigolib/hdf5/releases)
+[![Activity](https://img.shields.io/github/last-commit/scigolib/hdf5?style=flat-square&logo=github&label=activity)](https://github.com/scigolib/hdf5/commits)
 [![GitHub stars](https://img.shields.io/github/stars/scigolib/hdf5?style=flat-square&logo=github)](https://github.com/scigolib/hdf5/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/scigolib/hdf5?style=flat-square&logo=github)](https://github.com/scigolib/hdf5/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/scigolib/hdf5?style=flat-square&logo=github)](https://github.com/scigolib/hdf5/issues)
 
-Modern HDF5 library with no CGO dependencies. Passes 98.2% of official HDF5 test suite (380/387 files). Supports AI/ML datatypes (FP8, bfloat16) and achieves 10-250x faster hyperslab selections.
+Modern HDF5 library with no CGO dependencies. Passes 98.2% of official HDF5 test suite (380/387 files). Supports AI/ML datatypes (FP8, bfloat16) and achieves 10-250x faster hyperslab selections. **Launched:** November 2025
 
 **Highlights**:
 - Zero C dependencies
@@ -100,11 +103,12 @@ Modern HDF5 library with no CGO dependencies. Passes 98.2% of official HDF5 test
 
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/kolkov/racedetector)
 [![Version](https://img.shields.io/badge/version-v0.1.0-blue?style=flat-square)](https://github.com/kolkov/racedetector/releases)
+[![Activity](https://img.shields.io/github/last-commit/kolkov/racedetector?style=flat-square&logo=github&label=activity)](https://github.com/kolkov/racedetector/commits)
 [![GitHub stars](https://img.shields.io/github/stars/kolkov/racedetector?style=flat-square&logo=github)](https://github.com/kolkov/racedetector/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/kolkov/racedetector?style=flat-square&logo=github)](https://github.com/kolkov/racedetector/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/kolkov/racedetector?style=flat-square&logo=github)](https://github.com/kolkov/racedetector/issues)
 
-Solves the 10-year limitation where Go's race detector required C++ ThreadSanitizer. Implements FastTrack algorithm (PLDI 2009) with 260x memory optimization in common cases.
+Solves the 10-year limitation where Go's race detector required C++ ThreadSanitizer. Implements FastTrack algorithm (PLDI 2009) with 260x memory optimization in common cases. **Launched:** November 2025
 
 **Highlights**:
 - Works with `CGO_ENABLED=0` on all platforms
@@ -121,11 +125,12 @@ Solves the 10-year limitation where Go's race detector required C++ ThreadSaniti
 
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/coregx/relica)
 [![Version](https://img.shields.io/badge/version-v0.4.1%2B-blue?style=flat-square)](https://github.com/coregx/relica/releases)
+[![Activity](https://img.shields.io/github/last-commit/coregx/relica?style=flat-square&logo=github&label=activity)](https://github.com/coregx/relica/commits)
 [![GitHub stars](https://img.shields.io/github/stars/coregx/relica?style=flat-square&logo=github)](https://github.com/coregx/relica/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/relica?style=flat-square&logo=github)](https://github.com/coregx/relica/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/coregx/relica?style=flat-square&logo=github)](https://github.com/coregx/relica/issues)
 
-Zero production dependencies, type-safe reflection-based struct scanning. High performance with LRU statement cache and batch operations (3.3x faster). Full ACID transaction support with all isolation levels.
+Zero production dependencies, type-safe reflection-based struct scanning. High performance with LRU statement cache and batch operations (3.3x faster). Full ACID transaction support with all isolation levels. **Launched:** November 2025
 
 **Features**:
 - PostgreSQL, MySQL 8.0+, SQLite 3.25+ support
@@ -142,11 +147,12 @@ Zero production dependencies, type-safe reflection-based struct scanning. High p
 
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/coregx/fursy)
 [![Version](https://img.shields.io/badge/version-v0.1.0-blue?style=flat-square)](https://github.com/coregx/fursy/releases)
+[![Activity](https://img.shields.io/github/last-commit/coregx/fursy?style=flat-square&logo=github&label=activity)](https://github.com/coregx/fursy/commits)
 [![GitHub stars](https://img.shields.io/github/stars/coregx/fursy?style=flat-square&logo=github)](https://github.com/coregx/fursy/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/fursy?style=flat-square&logo=github)](https://github.com/coregx/fursy/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/coregx/fursy?style=flat-square&logo=github)](https://github.com/coregx/fursy/issues)
 
-Type-safe generic handlers using Box[Req, Res] pattern. High-performance routing (~10M req/s throughput, 256-326 ns/op). Automatic validation with 100+ supported tags.
+Type-safe generic handlers using Box[Req, Res] pattern. High-performance routing (~10M req/s throughput, 256-326 ns/op). Automatic validation with 100+ supported tags. **Launched:** November 2025
 
 **Features**:
 - Built-in OpenAPI 3.1 spec generation
@@ -163,11 +169,12 @@ Type-safe generic handlers using Box[Req, Res] pattern. High-performance routing
 
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/coregx/signals)
 [![Version](https://img.shields.io/badge/version-v0.1.0-blue?style=flat-square)](https://github.com/coregx/signals/releases)
+[![Activity](https://img.shields.io/github/last-commit/coregx/signals?style=flat-square&logo=github&label=activity)](https://github.com/coregx/signals/commits)
 [![GitHub stars](https://img.shields.io/github/stars/coregx/signals?style=flat-square&logo=github)](https://github.com/coregx/signals/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/signals?style=flat-square&logo=github)](https://github.com/coregx/signals/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/coregx/signals?style=flat-square&logo=github)](https://github.com/coregx/signals/issues)
 
-Angular Signals pattern for Go with zero-allocation hot paths (0.51 ns/op Signal.Get). Thread-safe operations with fine-grained reactivity and glitch-free execution.
+Angular Signals pattern for Go with zero-allocation hot paths (0.51 ns/op Signal.Get). Thread-safe operations with fine-grained reactivity and glitch-free execution. **Launched:** November 2024
 
 **Features**:
 - Pure Go with zero external dependencies
@@ -184,11 +191,12 @@ Angular Signals pattern for Go with zero-allocation hot paths (0.51 ns/op Signal
 
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/coregx/stream)
 [![Version](https://img.shields.io/badge/version-v0.1.0-blue?style=flat-square)](https://github.com/coregx/stream/releases)
+[![Activity](https://img.shields.io/github/last-commit/coregx/stream?style=flat-square&logo=github&label=activity)](https://github.com/coregx/stream/commits)
 [![GitHub stars](https://img.shields.io/github/stars/coregx/stream?style=flat-square&logo=github)](https://github.com/coregx/stream/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/stream?style=flat-square&logo=github)](https://github.com/coregx/stream/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/coregx/stream?style=flat-square&logo=github)](https://github.com/coregx/stream/issues)
 
-Production-ready SSE (RFC text/event-stream) and WebSocket (RFC 6455) implementations. High performance with <100μs latency and zero external dependencies.
+Production-ready SSE (RFC text/event-stream) and WebSocket (RFC 6455) implementations. High performance with <100μs latency and zero external dependencies. **Launched:** November 2025
 
 **Features**:
 - Named event types, event IDs for reconnection
@@ -205,11 +213,12 @@ Production-ready SSE (RFC text/event-stream) and WebSocket (RFC 6455) implementa
 
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/born-ml/born)
 [![Version](https://img.shields.io/badge/version-v0.1.1-blue?style=flat-square)](https://github.com/born-ml/born/releases)
+[![Activity](https://img.shields.io/github/last-commit/born-ml/born?style=flat-square&logo=github&label=activity)](https://github.com/born-ml/born/commits)
 [![GitHub stars](https://img.shields.io/github/stars/born-ml/born?style=flat-square&logo=github)](https://github.com/born-ml/born/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/born-ml/born?style=flat-square&logo=github)](https://github.com/born-ml/born/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/born-ml/born?style=flat-square&logo=github)](https://github.com/born-ml/born/issues)
 
-Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN). Auto-differentiation via decorator pattern. Multiple backends (CPU with SIMD, GPU planned).
+Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN). Auto-differentiation via decorator pattern. Multiple backends (CPU with SIMD, GPU planned). **Launched:** November 2025
 
 **Features**:
 - Type safety with generics-powered API
@@ -226,11 +235,12 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/grpmsoft/gosh)
 [![Version](https://img.shields.io/badge/version-v0.1.0--beta.7-orange?style=flat-square)](https://github.com/grpmsoft/gosh/releases)
+[![Activity](https://img.shields.io/github/last-commit/grpmsoft/gosh?style=flat-square&logo=github&label=activity)](https://github.com/grpmsoft/gosh/commits)
 [![GitHub stars](https://img.shields.io/github/stars/grpmsoft/gosh?style=flat-square&logo=github)](https://github.com/grpmsoft/gosh/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/grpmsoft/gosh?style=flat-square&logo=github)](https://github.com/grpmsoft/gosh/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/grpmsoft/gosh?style=flat-square&logo=github)](https://github.com/grpmsoft/gosh/issues)
 
-4 UI modes (Classic, Warp, Compact, Chat) with native POSIX script execution via mvdan.cc/sh. Git integration with branch display and dirty status indicators.
+4 UI modes (Classic, Warp, Compact, Chat) with native POSIX script execution via mvdan.cc/sh. Git integration with branch display and dirty status indicators. **Launched:** October 2025
 
 **Features**:
 - Persistent command history with smart deduplication
@@ -247,11 +257,12 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/scigolib/matlab)
 [![Version](https://img.shields.io/badge/version-v0.2.0--beta-orange?style=flat-square)](https://github.com/scigolib/matlab/releases)
+[![Activity](https://img.shields.io/github/last-commit/scigolib/matlab?style=flat-square&logo=github&label=activity)](https://github.com/scigolib/matlab/commits)
 [![GitHub stars](https://img.shields.io/github/stars/scigolib/matlab?style=flat-square&logo=github)](https://github.com/scigolib/matlab/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/scigolib/matlab?style=flat-square&logo=github)](https://github.com/scigolib/matlab/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/scigolib/matlab?style=flat-square&logo=github)](https://github.com/scigolib/matlab/issues)
 
-Read/write MATLAB files without CGO dependencies. Supports all numeric types, complex numbers, multi-dimensional arrays, and character arrays. Round-trip verified.
+Read/write MATLAB files without CGO dependencies. Supports all numeric types, complex numbers, multi-dimensional arrays, and character arrays. Round-trip verified. **Launched:** June 2025
 
 **Features**:
 - MATLAB v5-v7.2 (binary format)
@@ -268,11 +279,12 @@ Read/write MATLAB files without CGO dependencies. Supports all numeric types, co
 
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/unilibs/uniwidth)
 [![Version](https://img.shields.io/badge/version-v0.1.0--beta-orange?style=flat-square)](https://github.com/unilibs/uniwidth/releases)
+[![Activity](https://img.shields.io/github/last-commit/unilibs/uniwidth?style=flat-square&logo=github&label=activity)](https://github.com/unilibs/uniwidth/commits)
 [![GitHub stars](https://img.shields.io/github/stars/unilibs/uniwidth?style=flat-square&logo=github)](https://github.com/unilibs/uniwidth/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/unilibs/uniwidth?style=flat-square&logo=github)](https://github.com/unilibs/uniwidth/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/unilibs/uniwidth?style=flat-square&logo=github)](https://github.com/unilibs/uniwidth/issues)
 
-Zero memory allocations (0 B/op, 0 allocs/op) with Unicode 16.0 support. Tiered lookup strategy achieving O(1) performance for 90-95% of typical use cases.
+Zero memory allocations (0 B/op, 0 allocs/op) with Unicode 16.0 support. Tiered lookup strategy achieving O(1) performance for 90-95% of typical use cases. **Launched:** October 2025
 
 **Performance**:
 - 15-46x faster for ASCII
