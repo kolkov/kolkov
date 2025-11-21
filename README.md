@@ -57,8 +57,8 @@ A lightweight, highly customizable text editor component without external depend
 #### [phoenix](https://github.com/phoenix-tui/phoenix) - Phoenix TUI Framework
 > High-performance Terminal UI framework for Go
 
-[![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/phoenix-tui/phoenix)
-[![Version](https://img.shields.io/badge/version-v0.1.0%20STABLE-brightgreen?style=flat-square)](https://github.com/phoenix-tui/phoenix/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/phoenix-tui/phoenix?style=flat-square&logo=go)](https://github.com/phoenix-tui/phoenix)
+[![GitHub release](https://img.shields.io/github/v/release/phoenix-tui/phoenix?style=flat-square)](https://github.com/phoenix-tui/phoenix/releases)
 [![Activity](https://img.shields.io/github/last-commit/phoenix-tui/phoenix?style=flat-square&logo=github&label=activity)](https://github.com/phoenix-tui/phoenix/commits)
 [![GitHub stars](https://img.shields.io/github/stars/phoenix-tui/phoenix?style=flat-square&logo=github)](https://github.com/phoenix-tui/phoenix/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/phoenix-tui/phoenix?style=flat-square&logo=github)](https://github.com/phoenix-tui/phoenix/network/members)
@@ -79,8 +79,8 @@ A next-generation TUI framework featuring Domain-Driven Design architecture, per
 #### [hdf5](https://github.com/scigolib/hdf5) - HDF5 for Go
 > Pure Go implementation of HDF5 file format
 
-[![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/scigolib/hdf5)
-[![Version](https://img.shields.io/badge/version-v0.13.0-blue?style=flat-square)](https://github.com/scigolib/hdf5/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/scigolib/hdf5?style=flat-square&logo=go)](https://github.com/scigolib/hdf5)
+[![GitHub release](https://img.shields.io/github/v/release/scigolib/hdf5?style=flat-square)](https://github.com/scigolib/hdf5/releases)
 [![Activity](https://img.shields.io/github/last-commit/scigolib/hdf5?style=flat-square&logo=github&label=activity)](https://github.com/scigolib/hdf5/commits)
 [![GitHub stars](https://img.shields.io/github/stars/scigolib/hdf5?style=flat-square&logo=github)](https://github.com/scigolib/hdf5/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/scigolib/hdf5?style=flat-square&logo=github)](https://github.com/scigolib/hdf5/network/members)
@@ -101,8 +101,8 @@ Modern HDF5 library with no CGO dependencies. Passes 98.2% of official HDF5 test
 #### [racedetector](https://github.com/kolkov/racedetector) - Pure Go Race Detector
 > Production-ready race detector in pure Go without CGO
 
-[![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/kolkov/racedetector)
-[![Version](https://img.shields.io/badge/version-v0.1.0-blue?style=flat-square)](https://github.com/kolkov/racedetector/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/kolkov/racedetector?style=flat-square&logo=go)](https://github.com/kolkov/racedetector)
+[![GitHub release](https://img.shields.io/github/v/release/kolkov/racedetector?style=flat-square)](https://github.com/kolkov/racedetector/releases)
 [![Activity](https://img.shields.io/github/last-commit/kolkov/racedetector?style=flat-square&logo=github&label=activity)](https://github.com/kolkov/racedetector/commits)
 [![GitHub stars](https://img.shields.io/github/stars/kolkov/racedetector?style=flat-square&logo=github)](https://github.com/kolkov/racedetector/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/kolkov/racedetector?style=flat-square&logo=github)](https://github.com/kolkov/racedetector/network/members)
@@ -123,8 +123,8 @@ Solves the 10-year limitation where Go's race detector required C++ ThreadSaniti
 #### [relica](https://github.com/coregx/relica) - Relica Query Builder
 > Type-safe database query builder for Go with zero production dependencies
 
-[![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/coregx/relica)
-[![Version](https://img.shields.io/badge/version-v0.4.1%2B-blue?style=flat-square)](https://github.com/coregx/relica/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/coregx/relica?style=flat-square&logo=go)](https://github.com/coregx/relica)
+[![GitHub release](https://img.shields.io/github/v/release/coregx/relica?style=flat-square)](https://github.com/coregx/relica/releases)
 [![Activity](https://img.shields.io/github/last-commit/coregx/relica?style=flat-square&logo=github&label=activity)](https://github.com/coregx/relica/commits)
 [![GitHub stars](https://img.shields.io/github/stars/coregx/relica?style=flat-square&logo=github)](https://github.com/coregx/relica/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/relica?style=flat-square&logo=github)](https://github.com/coregx/relica/network/members)
@@ -145,8 +145,8 @@ Zero production dependencies, type-safe reflection-based struct scanning. High p
 #### [fursy](https://github.com/coregx/fursy) - FURSY HTTP Router
 > Next-generation HTTP router for Go with type-safe handlers and OpenAPI generation
 
-[![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/coregx/fursy)
-[![Version](https://img.shields.io/badge/version-v0.1.0-blue?style=flat-square)](https://github.com/coregx/fursy/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/coregx/fursy?style=flat-square&logo=go)](https://github.com/coregx/fursy)
+[![GitHub release](https://img.shields.io/github/v/release/coregx/fursy?style=flat-square)](https://github.com/coregx/fursy/releases)
 [![Activity](https://img.shields.io/github/last-commit/coregx/fursy?style=flat-square&logo=github&label=activity)](https://github.com/coregx/fursy/commits)
 [![GitHub stars](https://img.shields.io/github/stars/coregx/fursy?style=flat-square&logo=github)](https://github.com/coregx/fursy/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/fursy?style=flat-square&logo=github)](https://github.com/coregx/fursy/network/members)
@@ -167,8 +167,8 @@ Type-safe generic handlers using Box[Req, Res] pattern. High-performance routing
 #### [signals](https://github.com/coregx/signals) - Signals for Go
 > Type-safe reactive state management inspired by Angular Signals
 
-[![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/coregx/signals)
-[![Version](https://img.shields.io/badge/version-v0.1.0-blue?style=flat-square)](https://github.com/coregx/signals/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/coregx/signals?style=flat-square&logo=go)](https://github.com/coregx/signals)
+[![GitHub release](https://img.shields.io/github/v/release/coregx/signals?style=flat-square)](https://github.com/coregx/signals/releases)
 [![Activity](https://img.shields.io/github/last-commit/coregx/signals?style=flat-square&logo=github&label=activity)](https://github.com/coregx/signals/commits)
 [![GitHub stars](https://img.shields.io/github/stars/coregx/signals?style=flat-square&logo=github)](https://github.com/coregx/signals/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/signals?style=flat-square&logo=github)](https://github.com/coregx/signals/network/members)
@@ -189,8 +189,8 @@ Angular Signals pattern for Go with zero-allocation hot paths (0.51 ns/op Signal
 #### [stream](https://github.com/coregx/stream) - Real-time Communications
 > RFC-compliant Server-Sent Events and WebSocket for Go
 
-[![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/coregx/stream)
-[![Version](https://img.shields.io/badge/version-v0.1.0-blue?style=flat-square)](https://github.com/coregx/stream/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/coregx/stream?style=flat-square&logo=go)](https://github.com/coregx/stream)
+[![GitHub release](https://img.shields.io/github/v/release/coregx/stream?style=flat-square)](https://github.com/coregx/stream/releases)
 [![Activity](https://img.shields.io/github/last-commit/coregx/stream?style=flat-square&logo=github&label=activity)](https://github.com/coregx/stream/commits)
 [![GitHub stars](https://img.shields.io/github/stars/coregx/stream?style=flat-square&logo=github)](https://github.com/coregx/stream/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/stream?style=flat-square&logo=github)](https://github.com/coregx/stream/network/members)
@@ -211,8 +211,8 @@ Production-ready SSE (RFC text/event-stream) and WebSocket (RFC 6455) implementa
 #### [born](https://github.com/born-ml/born) - Born ML Framework
 > Production-ready deep learning framework for Go with zero Python dependencies
 
-[![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/born-ml/born)
-[![Version](https://img.shields.io/badge/version-v0.1.1-blue?style=flat-square)](https://github.com/born-ml/born/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/born-ml/born?style=flat-square&logo=go)](https://github.com/born-ml/born)
+[![GitHub release](https://img.shields.io/github/v/release/born-ml/born?style=flat-square)](https://github.com/born-ml/born/releases)
 [![Activity](https://img.shields.io/github/last-commit/born-ml/born?style=flat-square&logo=github&label=activity)](https://github.com/born-ml/born/commits)
 [![GitHub stars](https://img.shields.io/github/stars/born-ml/born?style=flat-square&logo=github)](https://github.com/born-ml/born/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/born-ml/born?style=flat-square&logo=github)](https://github.com/born-ml/born/network/members)
@@ -233,8 +233,8 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 #### [gosh](https://github.com/grpmsoft/gosh) - GoSh Modern Shell
 > Modern cross-platform shell written in Go with beautiful TUI
 
-[![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/grpmsoft/gosh)
-[![Version](https://img.shields.io/badge/version-v0.1.0--beta.7-orange?style=flat-square)](https://github.com/grpmsoft/gosh/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/grpmsoft/gosh?style=flat-square&logo=go)](https://github.com/grpmsoft/gosh)
+[![GitHub release](https://img.shields.io/github/v/release/grpmsoft/gosh?include_prereleases&style=flat-square)](https://github.com/grpmsoft/gosh/releases)
 [![Activity](https://img.shields.io/github/last-commit/grpmsoft/gosh?style=flat-square&logo=github&label=activity)](https://github.com/grpmsoft/gosh/commits)
 [![GitHub stars](https://img.shields.io/github/stars/grpmsoft/gosh?style=flat-square&logo=github)](https://github.com/grpmsoft/gosh/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/grpmsoft/gosh?style=flat-square&logo=github)](https://github.com/grpmsoft/gosh/network/members)
@@ -255,8 +255,8 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 #### [matlab](https://github.com/scigolib/matlab) - MATLAB for Go
 > Pure Go library for reading and writing MATLAB .mat files (v5-v7.3+)
 
-[![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/scigolib/matlab)
-[![Version](https://img.shields.io/badge/version-v0.2.0--beta-orange?style=flat-square)](https://github.com/scigolib/matlab/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/scigolib/matlab?style=flat-square&logo=go)](https://github.com/scigolib/matlab)
+[![GitHub release](https://img.shields.io/github/v/release/scigolib/matlab?include_prereleases&style=flat-square)](https://github.com/scigolib/matlab/releases)
 [![Activity](https://img.shields.io/github/last-commit/scigolib/matlab?style=flat-square&logo=github&label=activity)](https://github.com/scigolib/matlab/commits)
 [![GitHub stars](https://img.shields.io/github/stars/scigolib/matlab?style=flat-square&logo=github)](https://github.com/scigolib/matlab/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/scigolib/matlab?style=flat-square&logo=github)](https://github.com/scigolib/matlab/network/members)
@@ -277,8 +277,8 @@ Read/write MATLAB files without CGO dependencies. Supports all numeric types, co
 #### [uniwidth](https://github.com/unilibs/uniwidth) - Unicode Width Calculator
 > High-performance Unicode width calculation library - 3.9-46x faster than go-runewidth
 
-[![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/unilibs/uniwidth)
-[![Version](https://img.shields.io/badge/version-v0.1.0--beta-orange?style=flat-square)](https://github.com/unilibs/uniwidth/releases)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/unilibs/uniwidth?style=flat-square&logo=go)](https://github.com/unilibs/uniwidth)
+[![GitHub release](https://img.shields.io/github/v/release/unilibs/uniwidth?include_prereleases&style=flat-square)](https://github.com/unilibs/uniwidth/releases)
 [![Activity](https://img.shields.io/github/last-commit/unilibs/uniwidth?style=flat-square&logo=github&label=activity)](https://github.com/unilibs/uniwidth/commits)
 [![GitHub stars](https://img.shields.io/github/stars/unilibs/uniwidth?style=flat-square&logo=github)](https://github.com/unilibs/uniwidth/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/unilibs/uniwidth?style=flat-square&logo=github)](https://github.com/unilibs/uniwidth/network/members)
