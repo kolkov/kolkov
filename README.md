@@ -30,6 +30,14 @@ I'm a passionate full-stack developer with deep expertise in modern web technolo
 - Production-ready mindset from day one
 - Comprehensive documentation
 
+### From Enterprise to Open Source
+
+Many of the projects you see here originated from corporate development work. We've extracted reusable components, refined them into standalone libraries, and open-sourced them to benefit the community. That's why you might notice a significant number of projects launched in recent months - it's not a rush, but rather a systematic process of identifying valuable building blocks and making them publicly available.
+
+More libraries are being extracted and will be released as open source in the coming months. This is part of our commitment to giving back to the community and fostering innovation.
+
+We maintain and support such open source initiatives under **[GRPMSoft](https://github.com/grpmsoft)** (General Resources & Power Management) - a hub for system software and infrastructure tools.
+
 ---
 
 ## Featured Projects
@@ -502,6 +510,9 @@ I believe in:
 - **Pure Go** - Avoid CGO dependencies for better cross-compilation
 - **Type safety** - Leverage Go 1.25+ generics for compile-time guarantees
 - **Community first** - Clear documentation, examples, and responsive maintenance
+- **Enterprise to Open Source** - Extracting battle-tested components from production systems and sharing them with the community
+
+Many projects here have been refined in real-world corporate environments before being released as open source. This ensures they're not just theoretical solutions, but proven tools that solve actual problems. We continue this practice through **[GRPMSoft](https://github.com/grpmsoft)** and other organizations, systematically identifying and open-sourcing valuable components.
 
 ---
 
