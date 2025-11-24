@@ -569,6 +569,8 @@ Many projects here have been refined in real-world corporate environments before
 
 **Let's build something amazing together!**
 
+**Gophers of all lands, unite!**
+
 [![GitHub followers](https://img.shields.io/github/followers/kolkov?style=social)](https://github.com/kolkov)
 [![GitHub stars](https://img.shields.io/github/stars/kolkov?style=social)](https://github.com/kolkov)
 
