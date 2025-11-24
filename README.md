@@ -194,6 +194,30 @@ Angular Signals pattern for Go with zero-allocation hot paths (0.51 ns/op Signal
 
 ---
 
+#### [pubsub](https://github.com/coregx/pubsub) - PubSub Messaging
+> Production-ready publish-subscribe library with guaranteed delivery and Dead Letter Queue
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/coregx/pubsub?style=flat-square&logo=go)](https://github.com/coregx/pubsub)
+[![GitHub release](https://img.shields.io/github/v/release/coregx/pubsub?include_prereleases&style=flat-square)](https://github.com/coregx/pubsub/releases)
+[![Activity](https://img.shields.io/github/last-commit/coregx/pubsub?style=flat-square&logo=github&label=activity)](https://github.com/coregx/pubsub/commits)
+[![GitHub stars](https://img.shields.io/github/stars/coregx/pubsub?style=flat-square&logo=github)](https://github.com/coregx/pubsub/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/coregx/pubsub?style=flat-square&logo=github)](https://github.com/coregx/pubsub/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/coregx/pubsub?style=flat-square&logo=github)](https://github.com/coregx/pubsub/issues)
+
+Reliable message delivery with exponential backoff retry logic and automatic Dead Letter Queue handling. Battle-tested in FreiCON Railway Management System. Supports deployment as library or standalone microservice. **Launched:** November 2025
+
+**Features**:
+- Guaranteed delivery with progressive retry delays (30s → 30m max)
+- Dead Letter Queue with failure tracking and statistics
+- Domain-Driven Design with Repository Pattern
+- Multi-database support (MySQL, PostgreSQL, SQLite via Relica)
+- Standalone REST API microservice or embeddable library
+- Cloud-native with Docker support and health checks
+
+**Tech**: Go 1.25+ | **Status**: v0.1.0 | **Coverage**: 95.9%
+
+---
+
 #### [stream](https://github.com/coregx/stream) - Real-time Communications
 > RFC-compliant Server-Sent Events and WebSocket for Go
 
@@ -278,7 +302,7 @@ Read/write MATLAB files without CGO dependencies. Supports all numeric types, co
 - Pure Go HDF5 implementation
 - Cross-platform compatibility
 
-**Tech**: Pure Go 1.25+ | **Status**: Beta | **Target**: v1.0.0 Q2 2025
+**Tech**: Pure Go 1.25+ | **Status**: v0.2.0 Production-ready
 
 ---
 
@@ -299,7 +323,7 @@ Zero memory allocations (0 B/op, 0 allocs/op) with Unicode 16.0 support. Tiered 
 - 4-14x faster for CJK
 - 6-8x faster for mixed/emoji
 
-**Tech**: Go 1.25+ | **Status**: Beta | **Coverage**: 87.1%
+**Tech**: Go 1.25+ | **Status**: v0.1.0 Stable | **Coverage**: 87.1%
 
 ---
 
@@ -351,6 +375,12 @@ Type-safe, high-performance libraries for modern Go applications.
   - Angular Signals pattern, zero-allocation hot paths
   - 0.51 ns/op Signal.Get
   - `v0.1.0` | 51 tests, 67.9% coverage
+
+- **[pubsub](https://github.com/coregx/pubsub)** - Publish-Subscribe messaging
+  - Guaranteed delivery with exponential backoff retry
+  - Dead Letter Queue for failed messages
+  - Battle-tested in FreiCON Railway Management System
+  - `v0.1.0-alpha` | 95.9% coverage, Active development
 
 ---
 
@@ -437,7 +467,7 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 24 (21 public + 3 private) |
+| **Total Projects** | 25 (22 public + 3 private) |
 | **Organizations** | 11 |
 | **Total Stars** | 760+ |
 | **Total Forks** | 360+ |
