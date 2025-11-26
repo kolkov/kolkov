@@ -342,9 +342,25 @@ Building a production-ready ML framework for Go with zero Python dependencies.
 #### **CausalGo** - Statistical & Causal Learning
 High-performance implementations of causal discovery and statistical learning algorithms.
 
-- **[causalgo](https://github.com/CausalGo/causalgo)** - SURD algorithm for causal discovery
-  - 5-10x faster than Python implementation
-  - `v0.2.0` | Research-validated
+- **[causalgo](https://github.com/causalgo/causalgo)** - SURD algorithm for causal discovery
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/causalgo/causalgo?style=flat-square&logo=go)](https://github.com/causalgo/causalgo)
+[![GitHub release](https://img.shields.io/github/v/release/causalgo/causalgo?style=flat-square)](https://github.com/causalgo/causalgo/releases)
+[![Activity](https://img.shields.io/github/last-commit/causalgo/causalgo?style=flat-square&logo=github&label=activity)](https://github.com/causalgo/causalgo/commits)
+[![GitHub stars](https://img.shields.io/github/stars/causalgo/causalgo?style=flat-square&logo=github)](https://github.com/causalgo/causalgo/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/causalgo/causalgo?style=flat-square&logo=github)](https://github.com/causalgo/causalgo/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/causalgo/causalgo?style=flat-square&logo=github)](https://github.com/causalgo/causalgo/issues)
+
+  High-performance SURD (Synergy-Unique-Redundancy Decomposition) algorithm validated against Nature Communications 2024 research. Implements information-theoretic causal discovery with LASSO-based VarSelect for identifying causal ordering in nonlinear systems.
+
+  **Highlights**:
+  - 97.2% test coverage for SURD core
+  - 100% match with Python reference on turbulence data
+  - MATLAB file format support (v5 and v7.3 HDF5)
+  - Visualization exports (PNG/SVG/PDF)
+  - CLI tool for graph generation
+
+  **Tech**: Pure Go 1.25+, Gonum | **Status**: v0.3.0 | **Coverage**: 97.2%
 
 - **[lasso](https://github.com/CausalGo/lasso)** - Parallel LASSO regression
   - Coordinate descent with goroutines
