@@ -407,7 +407,7 @@ Type-safe, high-performance libraries for modern Go applications.
 [![GitHub forks](https://img.shields.io/github/forks/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/issues)
 
-  Up to 143x faster than stdlib (on case-insensitive patterns) through multi-engine architecture (DFA/NFA/Pike VM) and SIMD optimizations. AVX2/SSSE3 assembly for substring search, automatic prefilter coordination (memchr, memmem, teddy, Aho-Corasick).
+  Up to 263x faster than stdlib (on case-insensitive patterns) through multi-engine architecture (DFA/NFA/Pike VM) and SIMD optimizations. AVX2/SSSE3 assembly for substring search, automatic prefilter coordination (memchr, memmem, teddy, Aho-Corasick).
 
   **Highlights**:
   - 15-25x faster email extraction
@@ -416,7 +416,7 @@ Type-safe, high-performance libraries for modern Go applications.
   - Zero allocations in hot paths via object pooling
   - Pure Go fallback for non-AMD64 platforms
 
-  **Tech**: Go 1.25+, AMD64 SIMD | **Status**: v0.1.4 Experimental | **Target**: >70% coverage
+  **Tech**: Go 1.25+, AMD64 SIMD | **Status**: v0.2.0 Experimental | **Target**: >70% coverage
 
 ---
 
