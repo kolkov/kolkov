@@ -398,6 +398,26 @@ Type-safe, high-performance libraries for modern Go applications.
   - Battle-tested in FreiCON Railway Management System
   - `v0.1.0-alpha` | 95.9% coverage, Active development
 
+- **[coregex](https://github.com/coregx/coregex)** - High-performance regex engine
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/coregx/coregex?style=flat-square&logo=go)](https://github.com/coregx/coregex)
+[![GitHub release](https://img.shields.io/github/v/release/coregx/coregex?style=flat-square)](https://github.com/coregx/coregex/releases)
+[![Activity](https://img.shields.io/github/last-commit/coregx/coregex?style=flat-square&logo=github&label=activity)](https://github.com/coregx/coregex/commits)
+[![GitHub stars](https://img.shields.io/github/stars/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/issues)
+
+  5-50x faster than stdlib through multi-engine architecture (DFA/NFA/Pike VM) and SIMD optimizations. AVX2/SSSE3 assembly for substring search, automatic prefilter coordination (memchr, memmem, teddy, Aho-Corasick).
+
+  **Highlights**:
+  - 15-25x faster email extraction
+  - 30-50x faster log parsing with prefilters
+  - SIMD memchr: 12.3x faster on 64KB input
+  - Zero allocations in hot paths via object pooling
+  - Pure Go fallback for non-AMD64 platforms
+
+  **Tech**: Go 1.25+, AMD64 SIMD | **Status**: v0.1.0 Experimental | **Target**: >70% coverage
+
 ---
 
 #### **go-webgpu** - GPU Computing for Go
