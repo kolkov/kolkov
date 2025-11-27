@@ -396,7 +396,7 @@ Type-safe, high-performance libraries for modern Go applications.
   - Guaranteed delivery with exponential backoff retry
   - Dead Letter Queue for failed messages
   - Battle-tested in FreiCON Railway Management System
-  - `v0.1.0-alpha` | 95.9% coverage, Active development
+  - `v0.1.0` | 95.9% coverage, Active development
 
 - **[coregex](https://github.com/coregx/coregex)** - High-performance regex engine
 
