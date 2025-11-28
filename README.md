@@ -240,6 +240,28 @@ Production-ready SSE (RFC text/event-stream) and WebSocket (RFC 6455) implementa
 
 ---
 
+#### [coregex](https://github.com/coregx/coregex) - High-Performance Regex
+> Multi-engine regex up to 263x faster than stdlib with SIMD optimizations
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/coregx/coregex?style=flat-square&logo=go)](https://github.com/coregx/coregex)
+[![GitHub release](https://img.shields.io/github/v/release/coregx/coregex?style=flat-square)](https://github.com/coregx/coregex/releases)
+[![Activity](https://img.shields.io/github/last-commit/coregx/coregex?style=flat-square&logo=github&label=activity)](https://github.com/coregx/coregex/commits)
+[![GitHub stars](https://img.shields.io/github/stars/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/issues)
+
+Multi-engine architecture (DFA/NFA/Pike VM) with AVX2/SSSE3 SIMD assembly. Automatic prefilter coordination (memchr, memmem, teddy, Aho-Corasick). Zero allocations in hot paths via object pooling. **Launched:** November 2025
+
+**Performance**:
+- Up to 263x faster than stdlib (case-insensitive patterns)
+- 15-25x faster email extraction
+- 30-50x faster log parsing with prefilters
+- SIMD memchr: 12.3x faster on 64KB input
+
+**Tech**: Go 1.25+, AMD64 SIMD | **Status**: v0.2.0 Experimental | **Target**: >70% coverage
+
+---
+
 #### [born](https://github.com/born-ml/born) - Born ML Framework
 > Production-ready deep learning framework for Go with zero Python dependencies
 
@@ -281,6 +303,30 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 - Viewport scrolling and visual help
 
 **Tech**: Go 1.25+ | **Status**: Beta | **Target**: Q1 2026 stable
+
+---
+
+#### [webgpu](https://github.com/go-webgpu/webgpu) - WebGPU for Go
+> Zero-CGO WebGPU bindings — GPU-accelerated graphics and compute in pure Go
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/go-webgpu/webgpu?style=flat-square&logo=go)](https://github.com/go-webgpu/webgpu)
+[![GitHub release](https://img.shields.io/github/v/release/go-webgpu/webgpu?style=flat-square)](https://github.com/go-webgpu/webgpu/releases)
+[![Activity](https://img.shields.io/github/last-commit/go-webgpu/webgpu?style=flat-square&logo=github&label=activity)](https://github.com/go-webgpu/webgpu/commits)
+[![GitHub stars](https://img.shields.io/github/stars/go-webgpu/webgpu?style=flat-square&logo=github)](https://github.com/go-webgpu/webgpu/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/go-webgpu/webgpu?style=flat-square&logo=github)](https://github.com/go-webgpu/webgpu/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/go-webgpu/webgpu?style=flat-square&logo=github)](https://github.com/go-webgpu/webgpu/issues)
+
+Pure Go FFI-based WebGPU bindings via wgpu-native. Cross-platform GPU access without CGO. Comprehensive API covering graphics and compute pipelines. **Launched:** November 2025
+
+**Features**:
+- Complete WebGPU API: Instance, Adapter, Device, Buffers, Textures, Samplers
+- Render & Compute Pipelines with shader support
+- Advanced rendering: Depth buffers, MRT, instanced/indirect rendering
+- RenderBundle for pre-recorded commands
+- GPU timestamp queries and error scopes
+- 12 working examples (triangles, textures, 3D, compute shaders)
+
+**Tech**: Go 1.25+, wgpu-native v24.0.3.1 | **Status**: v0.1.0 Beta | **Platform**: Windows/Linux/macOS
 
 ---
 
@@ -398,40 +444,20 @@ Type-safe, high-performance libraries for modern Go applications.
   - Battle-tested in FreiCON Railway Management System
   - `v0.1.0` | 95.9% coverage, Active development
 
-- **[coregex](https://github.com/coregx/coregex)** - High-performance regex engine
-
-[![Go Version](https://img.shields.io/github/go-mod/go-version/coregx/coregex?style=flat-square&logo=go)](https://github.com/coregx/coregex)
-[![GitHub release](https://img.shields.io/github/v/release/coregx/coregex?style=flat-square)](https://github.com/coregx/coregex/releases)
-[![Activity](https://img.shields.io/github/last-commit/coregx/coregex?style=flat-square&logo=github&label=activity)](https://github.com/coregx/coregex/commits)
-[![GitHub stars](https://img.shields.io/github/stars/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/issues)
-
-  Up to 263x faster than stdlib (on case-insensitive patterns) through multi-engine architecture (DFA/NFA/Pike VM) and SIMD optimizations. AVX2/SSSE3 assembly for substring search, automatic prefilter coordination (memchr, memmem, teddy, Aho-Corasick).
-
-  **Highlights**:
-  - 15-25x faster email extraction
-  - 30-50x faster log parsing with prefilters
-  - SIMD memchr: 12.3x faster on 64KB input
-  - Zero allocations in hot paths via object pooling
-  - Pure Go fallback for non-AMD64 platforms
-
-  **Tech**: Go 1.25+, AMD64 SIMD | **Status**: v0.2.0 Experimental | **Target**: >70% coverage
+- **[coregex](https://github.com/coregx/coregex)** - See Featured Projects above
 
 ---
 
 #### **go-webgpu** - GPU Computing for Go
 Pure Go WebGPU ecosystem for graphics and compute workloads.
 
+- **[webgpu](https://github.com/go-webgpu/webgpu)** - See Featured Projects above
+
 - **[goffi](https://github.com/go-webgpu/goffi)** - Pure Go FFI library
   - Call C libraries without CGO
   - 88-114ns FFI call overhead
   - Platform-specific assembly optimizations
   - `v0.1.0` | 87.1% coverage
-
-- **[webgpu](https://github.com/go-webgpu/webgpu)** - 🔒 Private (launching Q4 2025)
-  - Pure Go WebGPU bindings
-  - Cross-platform GPU access
 
 ---
 
