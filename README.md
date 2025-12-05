@@ -461,6 +461,41 @@ Pure Go WebGPU ecosystem for graphics and compute workloads.
 
 ---
 
+#### **gogpu** - Pure Go Graphics Framework
+GPU power, Go simplicity — zero CGO graphics ecosystem.
+
+- **[gogpu](https://github.com/gogpu/gogpu)** - Core graphics framework
+  - Zero CGO, no C compiler required
+  - WebGPU backend, cross-platform (Windows/Linux/macOS)
+  - Simple API inspired by raylib, Processing, Ebitengine
+  - `WIP` | Project structure ready
+
+- **[wgpu](https://github.com/gogpu/wgpu)** - Pure Go WebGPU implementation
+  - No wgpu-native, no Rust dependencies
+  - Direct GPU access: Vulkan, Metal, DirectX 12, OpenGL
+  - WASM-compatible for browser deployment
+  - `Early` | Long-term vision
+
+- **[gg](https://github.com/gogpu/gg)** - GPU-accelerated 2D graphics
+  - Simple API like fogleman/gg but GPU-powered
+  - Processing-style creative coding interface
+  - Shapes, curves, text, images, gradients
+  - `Planned` | After gogpu v1.0
+
+- **[naga](https://github.com/gogpu/naga)** - Pure Go shader compiler
+  - Port of Rust naga to pure Go
+  - WGSL → SPIR-V, GLSL, HLSL, MSL
+  - Runtime shader generation, WASM support
+  - `Coming Soon` | Active development
+
+- **[ui](https://github.com/gogpu/ui)** - Pure Go GUI toolkit
+  - Modern widgets: buttons, inputs, tables, modals
+  - Flex/Grid/Stack layouts, themeable (dark/light)
+  - GPU-accelerated 60fps, cross-platform
+  - `Planned` | After gogpu v0.2.0
+
+---
+
 #### **scigolib** - Scientific Computing Libraries
 Building Go's scientific computing ecosystem with pure Go implementations.
 
@@ -529,8 +564,8 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 25 (22 public + 3 private) |
-| **Organizations** | 11 |
+| **Total Projects** | 31 (28 public + 3 private) |
+| **Organizations** | 12 |
 | **Total Stars** | 760+ |
 | **Total Forks** | 360+ |
 | **Code Coverage** | 67-95% average |
@@ -546,22 +581,30 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 - **born v0.2.0** - RNN/LSTM architectures
 
 ### Q1 2026
+- **gogpu v0.1.0** - Basic rendering framework
 - **grpm v0.1.0-beta** - Public beta
 - **gosh v1.0.0** - Stable shell release
 - **signals v0.2.0** - Advanced features
 - **phoenix v0.2.0** - Signals integration
 
 ### Q2 2026
+- **gg v0.1.0** - GPU-accelerated 2D graphics
 - **born v0.3.0** - Attention mechanisms
 - **iris v0.1.0-beta** - Mail server public beta
 - **relica v1.0.0** - Stable API
 - **fursy v1.0.0** - Stable API
 
 ### Q3 2026
+- **naga v0.1.0** - Pure Go shader compiler
 - **born v0.5.0** - GPU backends (CUDA, Vulkan, Metal)
 - **hdf5 v1.0.0** - Full HDF5 compliance
 - **racedetector v1.0.0** - Stable release
 - **grpm v0.2.0** - Production ready
+
+### Q4 2026
+- **ui v0.1.0** - Pure Go GUI toolkit
+- **gogpu v1.0.0** - Stable graphics framework
+- **born v1.0.0** - Production ML framework
 
 ---
 
