@@ -306,6 +306,29 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 
 ---
 
+#### [gogpu](https://github.com/gogpu/gogpu) - GoGPU Graphics Framework
+> Pure Go graphics framework - GPU power meets Go simplicity with zero CGO
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/gogpu/gogpu?style=flat-square&logo=go)](https://github.com/gogpu/gogpu)
+[![GitHub release](https://img.shields.io/github/v/release/gogpu/gogpu?include_prereleases&style=flat-square)](https://github.com/gogpu/gogpu/releases)
+[![Activity](https://img.shields.io/github/last-commit/gogpu/gogpu?style=flat-square&logo=github&label=activity)](https://github.com/gogpu/gogpu/commits)
+[![GitHub stars](https://img.shields.io/github/stars/gogpu/gogpu?style=flat-square&logo=github)](https://github.com/gogpu/gogpu/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/gogpu/gogpu?style=flat-square&logo=github)](https://github.com/gogpu/gogpu/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/gogpu/gogpu?style=flat-square&logo=github)](https://github.com/gogpu/gogpu/issues)
+
+High-level graphics framework that simplifies GPU programming. Dual backend architecture: Rust (wgpu-native via FFI) for performance or Pure Go for zero dependencies. Reduces WebGPU complexity from 480+ lines to ~20 lines. **Launched:** December 2025
+
+**Features**:
+- Dual backends: wgpu-native (Rust FFI) or Pure Go implementation
+- Zero CGO requirement (with Go backend)
+- Simple API inspired by raylib, Processing, Ebitengine
+- Cross-platform: Windows, Linux, macOS
+- Full ecosystem: graphics (gogpu), 2D API (gg), shaders (naga), GUI (ui)
+
+**Tech**: Go 1.25+, WebGPU | **Status**: v0.2.0-alpha | **Target**: v0.1.0 stable Q1 2026
+
+---
+
 #### [webgpu](https://github.com/go-webgpu/webgpu) - WebGPU for Go
 > Zero-CGO WebGPU bindings — GPU-accelerated graphics and compute in pure Go
 
