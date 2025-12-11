@@ -329,6 +329,52 @@ High-level graphics framework that simplifies GPU programming. Dual backend arch
 
 ---
 
+#### [wgpu](https://github.com/gogpu/wgpu) - Pure Go WebGPU Implementation
+> Complete WebGPU in pure Go — no Rust, no CGO, direct GPU access
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/gogpu/wgpu?style=flat-square&logo=go)](https://github.com/gogpu/wgpu)
+[![GitHub release](https://img.shields.io/github/v/release/gogpu/wgpu?include_prereleases&style=flat-square)](https://github.com/gogpu/wgpu/releases)
+[![Activity](https://img.shields.io/github/last-commit/gogpu/wgpu?style=flat-square&logo=github&label=activity)](https://github.com/gogpu/wgpu/commits)
+[![GitHub stars](https://img.shields.io/github/stars/gogpu/wgpu?style=flat-square&logo=github)](https://github.com/gogpu/wgpu/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/gogpu/wgpu?style=flat-square&logo=github)](https://github.com/gogpu/wgpu/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/gogpu/wgpu?style=flat-square&logo=github)](https://github.com/gogpu/wgpu/issues)
+
+Full WebGPU implementation without Rust/wgpu-native dependencies. Multi-backend: Vulkan 1.3, OpenGL ES, Software (CPU). W3C WebGPU spec compliant with type-safe GPU access. **Launched:** December 2025
+
+**Features**:
+- 100+ texture formats, comprehensive GPU type definitions
+- Core validation layer: 17 resource registries, 127 tests, 95% coverage
+- Production-ready Vulkan backend (~27K lines of code)
+- Headless rendering via software backend (CI/CD ready)
+- Generic ID system with epoch-based memory safety
+
+**Tech**: Go 1.25+, Vulkan/OpenGL/Software | **Status**: v0.3.0 | **Coverage**: 95%
+
+---
+
+#### [naga](https://github.com/gogpu/naga) - Pure Go Shader Compiler
+> WGSL to SPIR-V compiler — 10,000+ lines of pure Go, zero CGO
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/gogpu/naga?style=flat-square&logo=go)](https://github.com/gogpu/naga)
+[![GitHub release](https://img.shields.io/github/v/release/gogpu/naga?include_prereleases&style=flat-square)](https://github.com/gogpu/naga/releases)
+[![Activity](https://img.shields.io/github/last-commit/gogpu/naga?style=flat-square&logo=github&label=activity)](https://github.com/gogpu/naga/commits)
+[![GitHub stars](https://img.shields.io/github/stars/gogpu/naga?style=flat-square&logo=github)](https://github.com/gogpu/naga/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/gogpu/naga?style=flat-square&logo=github)](https://github.com/gogpu/naga/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/gogpu/naga?style=flat-square&logo=github)](https://github.com/gogpu/naga/issues)
+
+Complete WGSL shader compiler generating Vulkan-compatible SPIR-V bytecode. Full lexer, parser, semantic analysis, type checking. CLI tool `nagac` for command-line compilation. **Launched:** December 2025
+
+**Features**:
+- Full WGSL support: 140+ tokens, complete IR
+- Three-stage pipeline: parsing → IR lowering → codegen
+- 40+ built-in functions (math, geometric, interpolation)
+- Vertex, fragment, and compute shaders
+- Comprehensive error reporting and validation
+
+**Tech**: Go 1.25+, WGSL → SPIR-V | **Status**: v0.1.0 Released
+
+---
+
 #### [webgpu](https://github.com/go-webgpu/webgpu) - WebGPU for Go
 > Zero-CGO WebGPU bindings — GPU-accelerated graphics and compute in pure Go
 
