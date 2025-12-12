@@ -375,6 +375,29 @@ Complete WGSL shader compiler generating Vulkan-compatible SPIR-V bytecode. Full
 
 ---
 
+#### [gg](https://github.com/gogpu/gg) - Pure Go 2D Graphics
+> Canvas-like drawing API — simple, zero dependencies, pure Go
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/gogpu/gg?style=flat-square&logo=go)](https://github.com/gogpu/gg)
+[![GitHub release](https://img.shields.io/github/v/release/gogpu/gg?include_prereleases&style=flat-square)](https://github.com/gogpu/gg/releases)
+[![Activity](https://img.shields.io/github/last-commit/gogpu/gg?style=flat-square&logo=github&label=activity)](https://github.com/gogpu/gg/commits)
+[![GitHub stars](https://img.shields.io/github/stars/gogpu/gg?style=flat-square&logo=github)](https://github.com/gogpu/gg/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/gogpu/gg?style=flat-square&logo=github)](https://github.com/gogpu/gg/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/gogpu/gg?style=flat-square&logo=github)](https://github.com/gogpu/gg/issues)
+
+Lightweight 2D graphics with HTML Canvas-like API. Immediate-mode drawing with software renderer. Part of GoGPU ecosystem. **Launched:** December 2025
+
+**Features**:
+- Rich shapes: circles, rectangles, ellipses, arcs, Bezier curves
+- Path operations: MoveTo, LineTo, QuadraticTo, CubicTo
+- Matrix transformations: translate, rotate, scale
+- Color support: RGBA, hex parsing, named colors
+- Future: text, images, gradients, GPU acceleration
+
+**Tech**: Pure Go 1.25+ | **Status**: v0.1.0 Released
+
+---
+
 #### [webgpu](https://github.com/go-webgpu/webgpu) - WebGPU for Go
 > Zero-CGO WebGPU bindings — GPU-accelerated graphics and compute in pure Go
 
