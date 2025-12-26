@@ -258,7 +258,7 @@ Multi-engine architecture (DFA/NFA/Pike VM) with AVX2/SSSE3 SIMD assembly. Autom
 - 30-50x faster log parsing with prefilters
 - SIMD memchr: 12.3x faster on 64KB input
 
-**Tech**: Go 1.25+, AMD64 SIMD | **Status**: v0.2.0 Experimental | **Target**: >70% coverage
+**Tech**: Go 1.25+, AMD64 SIMD | **Status**: v0.8.24 Production-ready
 
 ---
 
@@ -280,7 +280,7 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 - Optimizers: SGD with momentum, Adam
 - WebAssembly support for browser inference
 
-**Tech**: Go 1.25+ | **Status**: v0.1.1 Released | **Coverage**: 83.8%
+**Tech**: Go 1.25+ | **Status**: v0.7.1 Production-ready | **Coverage**: 83.8%
 
 ---
 
@@ -325,7 +325,7 @@ High-level graphics framework that simplifies GPU programming. Dual backend arch
 - Cross-platform: Windows, Linux, macOS
 - Full ecosystem: graphics (gogpu), 2D API (gg), shaders (naga), GUI (ui)
 
-**Tech**: Go 1.25+, WebGPU | **Status**: v0.2.0-alpha | **Target**: v0.1.0 stable Q1 2026
+**Tech**: Go 1.25+, WebGPU | **Status**: v0.8.1 Production-ready
 
 ---
 
@@ -343,12 +343,12 @@ Full WebGPU implementation without Rust/wgpu-native dependencies. Multi-backend:
 
 **Features**:
 - 100+ texture formats, comprehensive GPU type definitions
-- Core validation layer: 17 resource registries, 127 tests, 95% coverage
+- Core validation layer: 17 resource registries, comprehensive tests
 - Production-ready Vulkan backend (~27K lines of code)
 - Headless rendering via software backend (CI/CD ready)
 - Generic ID system with epoch-based memory safety
 
-**Tech**: Go 1.25+, Vulkan/OpenGL/Software | **Status**: v0.3.0 | **Coverage**: 95%
+**Tech**: Go 1.25+, Vulkan/OpenGL/Software | **Status**: v0.7.1 Production-ready
 
 ---
 
@@ -371,7 +371,7 @@ Complete WGSL shader compiler generating Vulkan-compatible SPIR-V bytecode. Full
 - Vertex, fragment, and compute shaders
 - Comprehensive error reporting and validation
 
-**Tech**: Go 1.25+, WGSL → SPIR-V | **Status**: v0.1.0 Released
+**Tech**: Go 1.25+, WGSL → SPIR-V | **Status**: v0.6.0 Production-ready
 
 ---
 
@@ -385,16 +385,16 @@ Complete WGSL shader compiler generating Vulkan-compatible SPIR-V bytecode. Full
 [![GitHub forks](https://img.shields.io/github/forks/gogpu/gg?style=flat-square&logo=github)](https://github.com/gogpu/gg/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/gogpu/gg?style=flat-square&logo=github)](https://github.com/gogpu/gg/issues)
 
-Lightweight 2D graphics with HTML Canvas-like API. Immediate-mode drawing with software renderer. Part of GoGPU ecosystem. **Launched:** December 2025
+Lightweight 2D graphics with HTML Canvas-like API. Immediate-mode drawing with GPU acceleration. Part of GoGPU ecosystem. **Launched:** December 2025
 
 **Features**:
 - Rich shapes: circles, rectangles, ellipses, arcs, Bezier curves
 - Path operations: MoveTo, LineTo, QuadraticTo, CubicTo
 - Matrix transformations: translate, rotate, scale
 - Color support: RGBA, hex parsing, named colors
-- Future: text, images, gradients, GPU acceleration
+- GPU-accelerated rendering via WebGPU
 
-**Tech**: Pure Go 1.25+ | **Status**: v0.1.0 Released
+**Tech**: Pure Go 1.25+ | **Status**: v0.15.0 Production-ready
 
 ---
 
@@ -418,7 +418,7 @@ Pure Go FFI-based WebGPU bindings via wgpu-native. Cross-platform GPU access wit
 - GPU timestamp queries and error scopes
 - 12 working examples (triangles, textures, 3D, compute shaders)
 
-**Tech**: Go 1.25+, wgpu-native v24.0.3.1 | **Status**: v0.1.0 Beta | **Platform**: Windows/Linux/macOS
+**Tech**: Go 1.25+, wgpu-native v24.0.3.1 | **Status**: v0.1.1 Stable | **Platform**: Windows/Linux/macOS
 
 ---
 
@@ -440,7 +440,7 @@ Read/write MATLAB files without CGO dependencies. Supports all numeric types, co
 - Pure Go HDF5 implementation
 - Cross-platform compatibility
 
-**Tech**: Pure Go 1.25+ | **Status**: v0.2.0 Production-ready
+**Tech**: Pure Go 1.25+ | **Status**: v0.3.1 Production-ready
 
 ---
 
@@ -461,7 +461,7 @@ Zero memory allocations (0 B/op, 0 allocs/op) with Unicode 16.0 support. Tiered 
 - 4-14x faster for CJK
 - 6-8x faster for mixed/emoji
 
-**Tech**: Go 1.25+ | **Status**: v0.1.0 Stable | **Coverage**: 87.1%
+**Tech**: Go 1.25+ | **Status**: v0.1.0 Stable Production-ready | **Coverage**: 87.1%
 
 ---
 
@@ -472,8 +472,8 @@ Building a production-ready ML framework for Go with zero Python dependencies.
 
 - **[born](https://github.com/born-ml/born)** - ML framework achieving 97-98% MNIST accuracy
   - Single-binary deployment, WebAssembly support
-  - Auto-differentiation, multiple backends (CPU/GPU planned)
-  - `v0.1.1` | 132 tests, 83.8% coverage
+  - Auto-differentiation, multiple backends (CPU/GPU)
+  - `v0.7.1` | Production-ready, 83.8% coverage
 
 ---
 
@@ -498,12 +498,12 @@ High-performance implementations of causal discovery and statistical learning al
   - Visualization exports (PNG/SVG/PDF)
   - CLI tool for graph generation
 
-  **Tech**: Pure Go 1.25+, Gonum | **Status**: v0.3.0 | **Coverage**: 97.2%
+  **Tech**: Pure Go 1.25+, Gonum | **Status**: v0.4.0 | **Coverage**: 97.2%
 
 - **[lasso](https://github.com/CausalGo/lasso)** - Parallel LASSO regression
   - Coordinate descent with goroutines
   - ~25ms on 10K samples with 100 features
-  - `v0.1.0` | Production-ready
+  - `v0.2.1` | Production-ready
 
 ---
 
@@ -513,12 +513,12 @@ Type-safe, high-performance libraries for modern Go applications.
 - **[relica](https://github.com/coregx/relica)** - Type-safe database query builder
   - Zero production dependencies, 3.3x faster batch operations
   - PostgreSQL, MySQL, SQLite support
-  - `v0.4.1+` | 326+ tests, 93.3% coverage
+  - `v0.9.1` | Production-ready, high coverage
 
 - **[fursy](https://github.com/coregx/fursy)** - Next-gen HTTP router
   - Type-safe handlers, ~10M req/s throughput
   - Built-in OpenAPI 3.1 generation, RFC 9457 errors
-  - `v0.1.0` | 93.1% coverage
+  - `v0.3.3` | 93.1% coverage
 
 - **[stream](https://github.com/coregx/stream)** - Real-time communications
   - RFC-compliant SSE & WebSocket, <100μs latency
@@ -534,7 +534,7 @@ Type-safe, high-performance libraries for modern Go applications.
   - Guaranteed delivery with exponential backoff retry
   - Dead Letter Queue for failed messages
   - Battle-tested in FreiCON Railway Management System
-  - `v0.1.0` | 95.9% coverage, Active development
+  - `v0.1.0` | 95.9% coverage, Stable
 
 - **[coregex](https://github.com/coregx/coregex)** - See Featured Projects above
 
@@ -549,7 +549,7 @@ Pure Go WebGPU ecosystem for graphics and compute workloads.
   - Call C libraries without CGO
   - 88-114ns FFI call overhead
   - Platform-specific assembly optimizations
-  - `v0.1.0` | 87.1% coverage
+  - `v0.3.3` | 87.1% coverage, Production-ready
 
 ---
 
@@ -560,31 +560,31 @@ GPU power, Go simplicity — zero CGO graphics ecosystem.
   - Zero CGO, no C compiler required
   - WebGPU backend, cross-platform (Windows/Linux/macOS)
   - Simple API inspired by raylib, Processing, Ebitengine
-  - `WIP` | Project structure ready
+  - `v0.8.1` | Production-ready
 
 - **[wgpu](https://github.com/gogpu/wgpu)** - Pure Go WebGPU implementation
   - No wgpu-native, no Rust dependencies
   - Direct GPU access: Vulkan, Metal, DirectX 12, OpenGL
   - WASM-compatible for browser deployment
-  - `Early` | Long-term vision
+  - `v0.7.1` | Production-ready
 
 - **[gg](https://github.com/gogpu/gg)** - GPU-accelerated 2D graphics
   - Simple API like fogleman/gg but GPU-powered
   - Processing-style creative coding interface
   - Shapes, curves, text, images, gradients
-  - `Planned` | After gogpu v1.0
+  - `v0.15.0` | Production-ready
 
 - **[naga](https://github.com/gogpu/naga)** - Pure Go shader compiler
   - Port of Rust naga to pure Go
   - WGSL → SPIR-V, GLSL, HLSL, MSL
   - Runtime shader generation, WASM support
-  - `Coming Soon` | Active development
+  - `v0.6.0` | Production-ready
 
 - **[ui](https://github.com/gogpu/ui)** - Pure Go GUI toolkit
   - Modern widgets: buttons, inputs, tables, modals
   - Flex/Grid/Stack layouts, themeable (dark/light)
   - GPU-accelerated 60fps, cross-platform
-  - `Planned` | After gogpu v0.2.0
+  - `Planned` | After gogpu v1.0
 
 ---
 
@@ -596,7 +596,7 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 - **[matlab](https://github.com/scigolib/matlab)** - MATLAB file format library
   - Read/write .mat files (v5-v7.3+)
   - Pure Go, no CGO
-  - `v0.2.0-beta` | Active development
+  - `v0.3.1` | Production-ready
 
 ---
 
@@ -632,7 +632,7 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 - **[uniwidth](https://github.com/unilibs/uniwidth)** - Unicode width calculation
   - 3.9-46x faster than go-runewidth
   - Zero allocations
-  - `v0.1.0-beta` | 87.1% coverage
+  - `v0.1.0` | 87.1% coverage, Stable
 
 ---
 
@@ -656,7 +656,7 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 31 (28 public + 3 private) |
+| **Total Projects** | 33 (30 public + 3 private) |
 | **Organizations** | 12 |
 | **Total Stars** | 760+ |
 | **Total Forks** | 360+ |
@@ -667,36 +667,36 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 
 ## 🎯 Roadmap
 
-### Q4 2025 (Current)
-- **webgpu v0.1.0** - Public release
-- **uniwidth v0.1.0** - Stable release
-- **born v0.2.0** - RNN/LSTM architectures
+### Q4 2025 (Completed)
+- ✅ **webgpu v0.1.1** - Stable release
+- ✅ **uniwidth v0.1.0** - Stable release
+- ✅ **born v0.7.1** - Major progress (RNN/LSTM planned)
+- ✅ **gogpu v0.8.1** - Production-ready
+- ✅ **wgpu v0.7.1** - Production-ready
+- ✅ **gg v0.15.0** - Production-ready
+- ✅ **naga v0.6.0** - Production-ready
+- ✅ **coregex v0.8.24** - Production-ready
+- ✅ **relica v0.9.1** - Near-stable API
 
 ### Q1 2026
-- **gogpu v0.1.0** - Basic rendering framework
+- **gogpu v1.0.0** - Stable graphics framework
 - **grpm v0.1.0-beta** - Public beta
 - **gosh v1.0.0** - Stable shell release
 - **signals v0.2.0** - Advanced features
-- **phoenix v0.2.0** - Signals integration
-
-### Q2 2026
-- **gg v0.1.0** - GPU-accelerated 2D graphics
-- **born v0.3.0** - Attention mechanisms
-- **iris v0.1.0-beta** - Mail server public beta
+- **phoenix v0.3.0** - Enhanced components
 - **relica v1.0.0** - Stable API
 - **fursy v1.0.0** - Stable API
 
-### Q3 2026
-- **naga v0.1.0** - Pure Go shader compiler
-- **born v0.5.0** - GPU backends (CUDA, Vulkan, Metal)
-- **hdf5 v1.0.0** - Full HDF5 compliance
-- **racedetector v1.0.0** - Stable release
-- **grpm v0.2.0** - Production ready
-
-### Q4 2026
-- **ui v0.1.0** - Pure Go GUI toolkit
-- **gogpu v1.0.0** - Stable graphics framework
+### Q2 2026
 - **born v1.0.0** - Production ML framework
+- **iris v0.1.0-beta** - Mail server public beta
+- **ui v0.1.0** - Pure Go GUI toolkit
+- **hdf5 v1.0.0** - Full HDF5 compliance
+
+### Q3 2026
+- **wgpu v1.0.0** - Stable Pure Go WebGPU
+- **grpm v1.0.0** - Production ready
+- **racedetector v1.0.0** - Stable release
 
 ---
 
