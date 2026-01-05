@@ -53,6 +53,7 @@ We maintain and support such open source initiatives under **[GRPMSoft](https://
 [![GitHub stars](https://img.shields.io/github/stars/kolkov/angular-editor?style=flat-square&logo=github)](https://github.com/kolkov/angular-editor/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/kolkov/angular-editor?style=flat-square&logo=github)](https://github.com/kolkov/angular-editor/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/kolkov/angular-editor?style=flat-square&logo=github)](https://github.com/kolkov/angular-editor/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/kolkov/angular-editor?style=flat-square&logo=github&label=PRs)](https://github.com/kolkov/angular-editor/pulls)
 
 A lightweight, highly customizable text editor component without external dependencies. Features include visual/HTML modes, image uploads, theming with CSS variables, and full Angular Forms integration. **Launched:** May 2018
 
@@ -71,6 +72,7 @@ A lightweight, highly customizable text editor component without external depend
 [![GitHub stars](https://img.shields.io/github/stars/phoenix-tui/phoenix?style=flat-square&logo=github)](https://github.com/phoenix-tui/phoenix/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/phoenix-tui/phoenix?style=flat-square&logo=github)](https://github.com/phoenix-tui/phoenix/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/phoenix-tui/phoenix?style=flat-square&logo=github)](https://github.com/phoenix-tui/phoenix/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/phoenix-tui/phoenix?style=flat-square&logo=github&label=PRs)](https://github.com/phoenix-tui/phoenix/pulls)
 
 A next-generation TUI framework featuring Domain-Driven Design architecture, perfect Unicode/emoji support, and Elm-inspired patterns. Achieves 10x performance improvement (29,000 FPS) with differential rendering. **Launched:** October 2025
 
@@ -93,6 +95,7 @@ A next-generation TUI framework featuring Domain-Driven Design architecture, per
 [![GitHub stars](https://img.shields.io/github/stars/scigolib/hdf5?style=flat-square&logo=github)](https://github.com/scigolib/hdf5/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/scigolib/hdf5?style=flat-square&logo=github)](https://github.com/scigolib/hdf5/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/scigolib/hdf5?style=flat-square&logo=github)](https://github.com/scigolib/hdf5/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/scigolib/hdf5?style=flat-square&logo=github&label=PRs)](https://github.com/scigolib/hdf5/pulls)
 
 Modern HDF5 library with no CGO dependencies. Passes 98.2% of official HDF5 test suite (380/387 files). Supports AI/ML datatypes (FP8, bfloat16) and achieves 10-250x faster hyperslab selections. **Launched:** November 2025
 
@@ -115,6 +118,7 @@ Modern HDF5 library with no CGO dependencies. Passes 98.2% of official HDF5 test
 [![GitHub stars](https://img.shields.io/github/stars/kolkov/racedetector?style=flat-square&logo=github)](https://github.com/kolkov/racedetector/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/kolkov/racedetector?style=flat-square&logo=github)](https://github.com/kolkov/racedetector/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/kolkov/racedetector?style=flat-square&logo=github)](https://github.com/kolkov/racedetector/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/kolkov/racedetector?style=flat-square&logo=github&label=PRs)](https://github.com/kolkov/racedetector/pulls)
 
 Solves the 10-year limitation where Go's race detector required C++ ThreadSanitizer. Implements FastTrack algorithm (PLDI 2009) with 260x memory optimization in common cases. **Launched:** November 2025
 
@@ -128,6 +132,29 @@ Solves the 10-year limitation where Go's race detector required C++ ThreadSaniti
 
 ---
 
+#### [uawk](https://github.com/kolkov/uawk) - Ultra AWK Interpreter
+> High-performance AWK interpreter — up to 19x faster than GoAWK
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/kolkov/uawk?style=flat-square&logo=go)](https://github.com/kolkov/uawk)
+[![GitHub release](https://img.shields.io/github/v/release/kolkov/uawk?style=flat-square)](https://github.com/kolkov/uawk/releases)
+[![Activity](https://img.shields.io/github/last-commit/kolkov/uawk?style=flat-square&logo=github&label=activity)](https://github.com/kolkov/uawk/commits)
+[![GitHub stars](https://img.shields.io/github/stars/kolkov/uawk?style=flat-square&logo=github)](https://github.com/kolkov/uawk/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/kolkov/uawk?style=flat-square&logo=github)](https://github.com/kolkov/uawk/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/kolkov/uawk?style=flat-square&logo=github)](https://github.com/kolkov/uawk/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/kolkov/uawk?style=flat-square&logo=github&label=PRs)](https://github.com/kolkov/uawk/pulls)
+
+Ultra-fast AWK interpreter leveraging coregex engine for dramatic performance gains. NFA/DFA hybrid regex achieves 19x faster pattern matching compared to GoAWK. Designed for text processing, log analysis, and data transformation. **Launched:** January 2026
+
+**Performance**:
+- 19x faster than GoAWK on /BEGIN patterns
+- 2.8x faster simple field operations
+- 4.7x faster regex field matching
+- NFA/DFA hybrid regex engine (coregex-powered)
+
+**Tech**: Pure Go 1.25+ | **Status**: v0.1.2 Active development
+
+---
+
 #### [relica](https://github.com/coregx/relica) - Relica Query Builder
 > Type-safe database query builder for Go with zero production dependencies
 
@@ -137,6 +164,7 @@ Solves the 10-year limitation where Go's race detector required C++ ThreadSaniti
 [![GitHub stars](https://img.shields.io/github/stars/coregx/relica?style=flat-square&logo=github)](https://github.com/coregx/relica/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/relica?style=flat-square&logo=github)](https://github.com/coregx/relica/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/coregx/relica?style=flat-square&logo=github)](https://github.com/coregx/relica/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/coregx/relica?style=flat-square&logo=github&label=PRs)](https://github.com/coregx/relica/pulls)
 
 Zero production dependencies, type-safe reflection-based struct scanning. High performance with LRU statement cache and batch operations (3.3x faster). Full ACID transaction support with all isolation levels. **Launched:** November 2025
 
@@ -159,6 +187,7 @@ Zero production dependencies, type-safe reflection-based struct scanning. High p
 [![GitHub stars](https://img.shields.io/github/stars/coregx/fursy?style=flat-square&logo=github)](https://github.com/coregx/fursy/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/fursy?style=flat-square&logo=github)](https://github.com/coregx/fursy/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/coregx/fursy?style=flat-square&logo=github)](https://github.com/coregx/fursy/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/coregx/fursy?style=flat-square&logo=github&label=PRs)](https://github.com/coregx/fursy/pulls)
 
 Type-safe generic handlers using Box[Req, Res] pattern. High-performance routing (~10M req/s throughput, 256-326 ns/op). Automatic validation with 100+ supported tags. **Launched:** November 2025
 
@@ -181,6 +210,7 @@ Type-safe generic handlers using Box[Req, Res] pattern. High-performance routing
 [![GitHub stars](https://img.shields.io/github/stars/coregx/signals?style=flat-square&logo=github)](https://github.com/coregx/signals/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/signals?style=flat-square&logo=github)](https://github.com/coregx/signals/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/coregx/signals?style=flat-square&logo=github)](https://github.com/coregx/signals/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/coregx/signals?style=flat-square&logo=github&label=PRs)](https://github.com/coregx/signals/pulls)
 
 Angular Signals pattern for Go with zero-allocation hot paths (0.51 ns/op Signal.Get). Thread-safe operations with fine-grained reactivity and glitch-free execution. **Launched:** November 2024
 
@@ -203,6 +233,7 @@ Angular Signals pattern for Go with zero-allocation hot paths (0.51 ns/op Signal
 [![GitHub stars](https://img.shields.io/github/stars/coregx/pubsub?style=flat-square&logo=github)](https://github.com/coregx/pubsub/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/pubsub?style=flat-square&logo=github)](https://github.com/coregx/pubsub/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/coregx/pubsub?style=flat-square&logo=github)](https://github.com/coregx/pubsub/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/coregx/pubsub?style=flat-square&logo=github&label=PRs)](https://github.com/coregx/pubsub/pulls)
 
 Reliable message delivery with exponential backoff retry logic and automatic Dead Letter Queue handling. Battle-tested in FreiCON Railway Management System. Supports deployment as library or standalone microservice. **Launched:** November 2025
 
@@ -227,6 +258,7 @@ Reliable message delivery with exponential backoff retry logic and automatic Dea
 [![GitHub stars](https://img.shields.io/github/stars/coregx/stream?style=flat-square&logo=github)](https://github.com/coregx/stream/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/stream?style=flat-square&logo=github)](https://github.com/coregx/stream/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/coregx/stream?style=flat-square&logo=github)](https://github.com/coregx/stream/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/coregx/stream?style=flat-square&logo=github&label=PRs)](https://github.com/coregx/stream/pulls)
 
 Production-ready SSE (RFC text/event-stream) and WebSocket (RFC 6455) implementations. High performance with <100μs latency and zero external dependencies. **Launched:** November 2025
 
@@ -249,6 +281,7 @@ Production-ready SSE (RFC text/event-stream) and WebSocket (RFC 6455) implementa
 [![GitHub stars](https://img.shields.io/github/stars/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/coregx/coregex?style=flat-square&logo=github)](https://github.com/coregx/coregex/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/coregx/coregex?style=flat-square&logo=github&label=PRs)](https://github.com/coregx/coregex/pulls)
 
 Multi-engine architecture (DFA/NFA/Pike VM) with AVX2/SSSE3 SIMD assembly. Automatic prefilter coordination (memchr, memmem, teddy, Aho-Corasick). Zero allocations in hot paths via object pooling. **Launched:** November 2025
 
@@ -262,6 +295,29 @@ Multi-engine architecture (DFA/NFA/Pike VM) with AVX2/SSSE3 SIMD assembly. Autom
 
 ---
 
+#### [ahocorasick](https://github.com/coregx/ahocorasick) - High-Performance Multi-Pattern Matching
+> Aho-Corasick algorithm for Go — 1.6 GB/s throughput, zero allocations
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/coregx/ahocorasick?style=flat-square&logo=go)](https://github.com/coregx/ahocorasick)
+[![GitHub release](https://img.shields.io/github/v/release/coregx/ahocorasick?style=flat-square)](https://github.com/coregx/ahocorasick/releases)
+[![Activity](https://img.shields.io/github/last-commit/coregx/ahocorasick?style=flat-square&logo=github&label=activity)](https://github.com/coregx/ahocorasick/commits)
+[![GitHub stars](https://img.shields.io/github/stars/coregx/ahocorasick?style=flat-square&logo=github)](https://github.com/coregx/ahocorasick/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/coregx/ahocorasick?style=flat-square&logo=github)](https://github.com/coregx/ahocorasick/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/coregx/ahocorasick?style=flat-square&logo=github)](https://github.com/coregx/ahocorasick/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/coregx/ahocorasick?style=flat-square&logo=github&label=PRs)](https://github.com/coregx/ahocorasick/pulls)
+
+High-performance Aho-Corasick multi-pattern string matching with 1.6 GB/s IsMatch and 1.1 GB/s Find throughput. Optimized for large pattern sets with efficient memory layout and failure link traversal. **Launched:** January 2026
+
+**Performance**:
+- IsMatch: 1.6 GB/s throughput
+- Find: 1.1 GB/s throughput
+- Zero allocations per search
+- Efficient for large pattern dictionaries
+
+**Tech**: Pure Go 1.25+ | **Status**: v0.1.0 Stable
+
+---
+
 #### [born](https://github.com/born-ml/born) - Born ML Framework
 > Production-ready deep learning framework for Go with zero Python dependencies
 
@@ -271,6 +327,7 @@ Multi-engine architecture (DFA/NFA/Pike VM) with AVX2/SSSE3 SIMD assembly. Autom
 [![GitHub stars](https://img.shields.io/github/stars/born-ml/born?style=flat-square&logo=github)](https://github.com/born-ml/born/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/born-ml/born?style=flat-square&logo=github)](https://github.com/born-ml/born/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/born-ml/born?style=flat-square&logo=github)](https://github.com/born-ml/born/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/born-ml/born?style=flat-square&logo=github&label=PRs)](https://github.com/born-ml/born/pulls)
 
 Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN). Auto-differentiation via decorator pattern. Multiple backends (CPU with SIMD, GPU planned). **Launched:** November 2025
 
@@ -293,6 +350,7 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 [![GitHub stars](https://img.shields.io/github/stars/grpmsoft/gosh?style=flat-square&logo=github)](https://github.com/grpmsoft/gosh/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/grpmsoft/gosh?style=flat-square&logo=github)](https://github.com/grpmsoft/gosh/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/grpmsoft/gosh?style=flat-square&logo=github)](https://github.com/grpmsoft/gosh/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/grpmsoft/gosh?style=flat-square&logo=github&label=PRs)](https://github.com/grpmsoft/gosh/pulls)
 
 4 UI modes (Classic, Warp, Compact, Chat) with native POSIX script execution via mvdan.cc/sh. Git integration with branch display and dirty status indicators. **Launched:** October 2025
 
@@ -315,6 +373,7 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 [![GitHub stars](https://img.shields.io/github/stars/gogpu/gogpu?style=flat-square&logo=github)](https://github.com/gogpu/gogpu/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/gogpu/gogpu?style=flat-square&logo=github)](https://github.com/gogpu/gogpu/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/gogpu/gogpu?style=flat-square&logo=github)](https://github.com/gogpu/gogpu/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/gogpu/gogpu?style=flat-square&logo=github&label=PRs)](https://github.com/gogpu/gogpu/pulls)
 
 High-level graphics framework that simplifies GPU programming. Dual backend architecture: Rust (wgpu-native via FFI) for performance or Pure Go for zero dependencies. Reduces WebGPU complexity from 480+ lines to ~20 lines. **Launched:** December 2025
 
@@ -338,6 +397,7 @@ High-level graphics framework that simplifies GPU programming. Dual backend arch
 [![GitHub stars](https://img.shields.io/github/stars/gogpu/wgpu?style=flat-square&logo=github)](https://github.com/gogpu/wgpu/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/gogpu/wgpu?style=flat-square&logo=github)](https://github.com/gogpu/wgpu/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/gogpu/wgpu?style=flat-square&logo=github)](https://github.com/gogpu/wgpu/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/gogpu/wgpu?style=flat-square&logo=github&label=PRs)](https://github.com/gogpu/wgpu/pulls)
 
 Full WebGPU implementation without Rust/wgpu-native dependencies. Multi-backend: Vulkan 1.3, OpenGL ES, Software (CPU). W3C WebGPU spec compliant with type-safe GPU access. **Launched:** December 2025
 
@@ -361,6 +421,7 @@ Full WebGPU implementation without Rust/wgpu-native dependencies. Multi-backend:
 [![GitHub stars](https://img.shields.io/github/stars/gogpu/naga?style=flat-square&logo=github)](https://github.com/gogpu/naga/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/gogpu/naga?style=flat-square&logo=github)](https://github.com/gogpu/naga/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/gogpu/naga?style=flat-square&logo=github)](https://github.com/gogpu/naga/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/gogpu/naga?style=flat-square&logo=github&label=PRs)](https://github.com/gogpu/naga/pulls)
 
 Complete WGSL shader compiler generating Vulkan-compatible SPIR-V bytecode. Full lexer, parser, semantic analysis, type checking. CLI tool `nagac` for command-line compilation. **Launched:** December 2025
 
@@ -384,6 +445,7 @@ Complete WGSL shader compiler generating Vulkan-compatible SPIR-V bytecode. Full
 [![GitHub stars](https://img.shields.io/github/stars/gogpu/gg?style=flat-square&logo=github)](https://github.com/gogpu/gg/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/gogpu/gg?style=flat-square&logo=github)](https://github.com/gogpu/gg/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/gogpu/gg?style=flat-square&logo=github)](https://github.com/gogpu/gg/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/gogpu/gg?style=flat-square&logo=github&label=PRs)](https://github.com/gogpu/gg/pulls)
 
 Lightweight 2D graphics with HTML Canvas-like API. Immediate-mode drawing with GPU acceleration. Part of GoGPU ecosystem. **Launched:** December 2025
 
@@ -398,6 +460,31 @@ Lightweight 2D graphics with HTML Canvas-like API. Immediate-mode drawing with G
 
 ---
 
+#### [ui](https://github.com/gogpu/ui) - Enterprise GUI Toolkit
+> Pure Go GUI toolkit — reactive state, GPU-accelerated, 95% test coverage
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/gogpu/ui?style=flat-square&logo=go)](https://github.com/gogpu/ui)
+[![Activity](https://img.shields.io/github/last-commit/gogpu/ui?style=flat-square&logo=github&label=activity)](https://github.com/gogpu/ui/commits)
+[![GitHub stars](https://img.shields.io/github/stars/gogpu/ui?style=flat-square&logo=github)](https://github.com/gogpu/ui/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/gogpu/ui?style=flat-square&logo=github)](https://github.com/gogpu/ui/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/gogpu/ui?style=flat-square&logo=github)](https://github.com/gogpu/ui/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/gogpu/ui?style=flat-square&logo=github&label=PRs)](https://github.com/gogpu/ui/pulls)
+
+Enterprise-grade GUI toolkit for professional applications like IDEs, design tools, and CAD software. Pure Go with WebGPU rendering, reactive signals-based state management, and comprehensive layout engines. **Launched:** January 2026
+
+**Features**:
+- CGO-free pure Go implementation
+- WebGPU rendering backend (60fps GPU-accelerated)
+- Reactive state management via signals
+- Flexbox + Grid layout engines
+- Built-in virtualization support
+- IDE-style docking capabilities
+- ~10,261 lines of foundation code
+
+**Tech**: Pure Go 1.25+, WebGPU | **Status**: v0.0.x Foundation Phase | **Coverage**: 95%+
+
+---
+
 #### [webgpu](https://github.com/go-webgpu/webgpu) - WebGPU for Go
 > Zero-CGO WebGPU bindings — GPU-accelerated graphics and compute in pure Go
 
@@ -407,6 +494,7 @@ Lightweight 2D graphics with HTML Canvas-like API. Immediate-mode drawing with G
 [![GitHub stars](https://img.shields.io/github/stars/go-webgpu/webgpu?style=flat-square&logo=github)](https://github.com/go-webgpu/webgpu/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/go-webgpu/webgpu?style=flat-square&logo=github)](https://github.com/go-webgpu/webgpu/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/go-webgpu/webgpu?style=flat-square&logo=github)](https://github.com/go-webgpu/webgpu/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/go-webgpu/webgpu?style=flat-square&logo=github&label=PRs)](https://github.com/go-webgpu/webgpu/pulls)
 
 Pure Go FFI-based WebGPU bindings via wgpu-native. Cross-platform GPU access without CGO. Comprehensive API covering graphics and compute pipelines. **Launched:** November 2025
 
@@ -431,6 +519,7 @@ Pure Go FFI-based WebGPU bindings via wgpu-native. Cross-platform GPU access wit
 [![GitHub stars](https://img.shields.io/github/stars/scigolib/matlab?style=flat-square&logo=github)](https://github.com/scigolib/matlab/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/scigolib/matlab?style=flat-square&logo=github)](https://github.com/scigolib/matlab/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/scigolib/matlab?style=flat-square&logo=github)](https://github.com/scigolib/matlab/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/scigolib/matlab?style=flat-square&logo=github&label=PRs)](https://github.com/scigolib/matlab/pulls)
 
 Read/write MATLAB files without CGO dependencies. Supports all numeric types, complex numbers, multi-dimensional arrays, and character arrays. Round-trip verified. **Launched:** June 2025
 
@@ -453,6 +542,7 @@ Read/write MATLAB files without CGO dependencies. Supports all numeric types, co
 [![GitHub stars](https://img.shields.io/github/stars/unilibs/uniwidth?style=flat-square&logo=github)](https://github.com/unilibs/uniwidth/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/unilibs/uniwidth?style=flat-square&logo=github)](https://github.com/unilibs/uniwidth/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/unilibs/uniwidth?style=flat-square&logo=github)](https://github.com/unilibs/uniwidth/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/unilibs/uniwidth?style=flat-square&logo=github&label=PRs)](https://github.com/unilibs/uniwidth/pulls)
 
 Zero memory allocations (0 B/op, 0 allocs/op) with Unicode 16.0 support. Tiered lookup strategy achieving O(1) performance for 90-95% of typical use cases. **Launched:** October 2025
 
@@ -488,6 +578,7 @@ High-performance implementations of causal discovery and statistical learning al
 [![GitHub stars](https://img.shields.io/github/stars/causalgo/causalgo?style=flat-square&logo=github)](https://github.com/causalgo/causalgo/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/causalgo/causalgo?style=flat-square&logo=github)](https://github.com/causalgo/causalgo/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/causalgo/causalgo?style=flat-square&logo=github)](https://github.com/causalgo/causalgo/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/causalgo/causalgo?style=flat-square&logo=github&label=PRs)](https://github.com/causalgo/causalgo/pulls)
 
   High-performance SURD (Synergy-Unique-Redundancy Decomposition) algorithm validated against Nature Communications 2024 research. Implements information-theoretic causal discovery with LASSO-based VarSelect for identifying causal ordering in nonlinear systems.
 
@@ -538,6 +629,11 @@ Type-safe, high-performance libraries for modern Go applications.
 
 - **[coregex](https://github.com/coregx/coregex)** - See Featured Projects above
 
+- **[ahocorasick](https://github.com/coregx/ahocorasick)** - Multi-pattern string matching
+  - Aho-Corasick algorithm, 1.6 GB/s throughput
+  - Zero allocations per search
+  - `v0.1.0` | Stable
+
 ---
 
 #### **go-webgpu** - GPU Computing for Go
@@ -580,11 +676,11 @@ GPU power, Go simplicity — zero CGO graphics ecosystem.
   - Runtime shader generation, WASM support
   - `v0.6.0` | Production-ready
 
-- **[ui](https://github.com/gogpu/ui)** - Pure Go GUI toolkit
-  - Modern widgets: buttons, inputs, tables, modals
-  - Flex/Grid/Stack layouts, themeable (dark/light)
+- **[ui](https://github.com/gogpu/ui)** - Enterprise GUI toolkit
+  - Reactive signals state management, WebGPU rendering
+  - Flexbox + Grid layouts, virtualization support
   - GPU-accelerated 60fps, cross-platform
-  - `Planned` | After gogpu v1.0
+  - `v0.0.x` | Foundation Phase, 95%+ coverage
 
 ---
 
@@ -646,6 +742,9 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 - **[luhn](https://github.com/kolkov/luhn)** - Luhn algorithm (credit card validation)
 - **[esr](https://github.com/kolkov/esr)** - Check-digit mod11 algorithm
 
+#### Text Processing
+- **[uawk](https://github.com/kolkov/uawk)** - Ultra AWK interpreter (19x faster than GoAWK)
+
 #### Utilities
 - **[url-translit](https://github.com/kolkov/url-translit)** - Cyrillic to Latin URL transliteration
 - **[prerender](https://github.com/goprerender/prerender)** - Headless Chrome prerendering server
@@ -656,9 +755,9 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 33 (30 public + 3 private) |
+| **Total Projects** | 36 (33 public + 3 private) |
 | **Organizations** | 12 |
-| **Total Stars** | 760+ |
+| **Total Stars** | 1000+ |
 | **Total Forks** | 360+ |
 | **Code Coverage** | 67-95% average |
 | **Linter Issues** | 0 (strict policy) |
