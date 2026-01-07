@@ -318,6 +318,33 @@ High-performance Aho-Corasick multi-pattern string matching with 1.6 GB/s IsMatc
 
 ---
 
+#### [gxpdf](https://github.com/coregx/gxpdf) - Enterprise PDF Library
+> Create and read PDF documents — 100% table extraction accuracy, DDD architecture
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/coregx/gxpdf?style=flat-square&logo=go)](https://github.com/coregx/gxpdf)
+[![GitHub release](https://img.shields.io/github/v/release/coregx/gxpdf?style=flat-square)](https://github.com/coregx/gxpdf/releases)
+[![Activity](https://img.shields.io/github/last-commit/coregx/gxpdf?style=flat-square&logo=github&label=activity)](https://github.com/coregx/gxpdf/commits)
+[![GitHub stars](https://img.shields.io/github/stars/coregx/gxpdf?style=flat-square&logo=github)](https://github.com/coregx/gxpdf/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/coregx/gxpdf?style=flat-square&logo=github)](https://github.com/coregx/gxpdf/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/coregx/gxpdf?style=flat-square&logo=github)](https://github.com/coregx/gxpdf/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/coregx/gxpdf?style=flat-square&logo=github&label=PRs)](https://github.com/coregx/gxpdf/pulls)
+
+Modern PDF library with comprehensive creation and extraction capabilities. Industry-leading table extraction accuracy (100% on bank statements). Built with Domain-Driven Design principles. **Launched:** January 2026
+
+**Creation Features**:
+- Text, graphics, gradients, complex tables with merged cells
+- TTF/OTF font embedding + 14 standard PDF fonts
+- RC4/AES encryption (40/128/256-bit)
+- Auto-generated table of contents, watermarks
+
+**Extraction Features**:
+- Table extraction with 100% accuracy
+- Text/image extraction, CSV/JSON/Excel export
+
+**Tech**: Pure Go 1.25+, DDD | **Status**: v0.1.0 Active development
+
+---
+
 #### [born](https://github.com/born-ml/born) - Born ML Framework
 > Production-ready deep learning framework for Go with zero Python dependencies
 
@@ -634,6 +661,11 @@ Type-safe, high-performance libraries for modern Go applications.
   - Zero allocations per search
   - `v0.1.0` | Stable
 
+- **[gxpdf](https://github.com/coregx/gxpdf)** - Enterprise PDF library
+  - Create & read PDFs, 100% table extraction accuracy
+  - TTF/OTF fonts, encryption, watermarks
+  - `v0.1.0` | Active development
+
 ---
 
 #### **go-webgpu** - GPU Computing for Go
@@ -755,7 +787,7 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 36 (33 public + 3 private) |
+| **Total Projects** | 37 (34 public + 3 private) |
 | **Organizations** | 12 |
 | **Total Stars** | 1000+ |
 | **Total Forks** | 360+ |
