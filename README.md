@@ -391,6 +391,30 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 
 ---
 
+#### [grpm](https://github.com/grpmsoft/grpm) - Next-Gen Package Manager
+> Gentoo package manager replacement — SAT solver, daemon architecture, transactional updates
+
+[![Go Version](https://img.shields.io/github/go-mod/go-version/grpmsoft/grpm?style=flat-square&logo=go)](https://github.com/grpmsoft/grpm)
+[![GitHub release](https://img.shields.io/github/v/release/grpmsoft/grpm?style=flat-square)](https://github.com/grpmsoft/grpm/releases)
+[![Activity](https://img.shields.io/github/last-commit/grpmsoft/grpm?style=flat-square&logo=github&label=activity)](https://github.com/grpmsoft/grpm/commits)
+[![GitHub stars](https://img.shields.io/github/stars/grpmsoft/grpm?style=flat-square&logo=github)](https://github.com/grpmsoft/grpm/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/grpmsoft/grpm?style=flat-square&logo=github)](https://github.com/grpmsoft/grpm/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/grpmsoft/grpm?style=flat-square&logo=github)](https://github.com/grpmsoft/grpm/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/grpmsoft/grpm?style=flat-square&logo=github&label=PRs)](https://github.com/grpmsoft/grpm/pulls)
+
+Modern Portage replacement for Gentoo Linux. SAT-based conflict-free dependency resolution, binary packages (GPKG/TBZ2), transactional updates via Btrfs/ZFS snapshots, daemon mode with gRPC/REST APIs. **Launched:** January 2026
+
+**Features**:
+- SAT solver for dependency resolution
+- Binary & source package support
+- Transactional updates (Btrfs/ZFS snapshots)
+- Daemon architecture (gRPC + REST API)
+- Namespace-based build sandboxing
+
+**Tech**: Go 1.25+, SAT solver, gRPC | **Status**: v0.2.0 Early development
+
+---
+
 #### [gogpu](https://github.com/gogpu/gogpu) - GoGPU Graphics Framework
 > Pure Go graphics framework - GPU power meets Go simplicity with zero CGO
 
@@ -741,9 +765,10 @@ Building Go's scientific computing ecosystem with pure Go implementations.
   - Native POSIX script execution, Git integration
   - `v0.1.0-beta.7` | Targeting stable Q1 2026
 
-- **[grpm](https://github.com/grpmsoft/grpm)** - 🔒 Private (launching Q1 2026)
-  - General Resource & Package Manager
-  - Universal package management for Go ecosystem
+- **[grpm](https://github.com/grpmsoft/grpm)** - Next-gen package manager
+  - SAT solver, daemon architecture (gRPC/REST)
+  - Transactional updates via Btrfs/ZFS snapshots
+  - `v0.2.0` | Early development
 
 ---
 
@@ -787,7 +812,7 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 37 (34 public + 3 private) |
+| **Total Projects** | 37 (35 public + 2 private) |
 | **Organizations** | 12 |
 | **Total Stars** | 1000+ |
 | **Total Forks** | 360+ |
