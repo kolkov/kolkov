@@ -1,6 +1,6 @@
 # Hi there, I'm Andrey Kolkov 👋
 
-Go Systems Engineer | Open Source Architect | 35+ Projects, 1350+ Stars
+Go Systems Engineer | Open Source Architect | 35+ Projects, 1500+ Stars | 10 Projects in awesome-go
 
 ---
 
@@ -338,7 +338,7 @@ Modern PDF library with comprehensive creation and extraction capabilities. Indu
 - Table extraction with 100% accuracy
 - Text/image extraction, CSV/JSON/Excel export
 
-**Tech**: Pure Go 1.25+, DDD | **Status**: v0.3.0 Active development
+**Tech**: Pure Go 1.25+, DDD | **Status**: v0.6.0 Active development
 
 ---
 
@@ -361,7 +361,7 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 - Optimizers: SGD with momentum, Adam
 - WebAssembly support for browser inference
 
-**Tech**: Go 1.25+ | **Status**: v0.7.9 Active development | **Coverage**: 83.8%
+**Tech**: Go 1.25+ | **Status**: v0.7.11 Active development | **Coverage**: 83.8%
 
 ---
 
@@ -432,7 +432,7 @@ High-level graphics framework that simplifies GPU programming. Dual backend arch
 - Cross-platform: Windows, Linux, macOS
 - Full ecosystem: graphics (gogpu), 2D API (gg), shaders (naga), GUI (ui)
 
-**Tech**: Go 1.25+, WebGPU | **Status**: v0.19.1 Production-ready
+**Tech**: Go 1.25+, WebGPU | **Status**: v0.24.4 Production-ready | **Ecosystem**: 580K+ LOC pure Go
 
 ---
 
@@ -456,7 +456,7 @@ Full WebGPU implementation without Rust/wgpu-native dependencies. Multi-backend:
 - Headless rendering via software backend (CI/CD ready)
 - Generic ID system with epoch-based memory safety
 
-**Tech**: Go 1.25+, Vulkan/OpenGL/Software | **Status**: v0.16.3 Production-ready
+**Tech**: Go 1.25+, Vulkan/OpenGL/Software | **Status**: v0.21.3 Production-ready (~124K LOC)
 
 ---
 
@@ -480,7 +480,7 @@ Complete WGSL shader compiler generating Vulkan-compatible SPIR-V bytecode. Full
 - Vertex, fragment, and compute shaders
 - Comprehensive error reporting and validation
 
-**Tech**: Go 1.25+, WGSL → SPIR-V | **Status**: v0.13.0 Production-ready
+**Tech**: Go 1.25+, WGSL → SPIR-V/MSL/GLSL/HLSL | **Status**: v0.14.8 Production-ready (~65K LOC)
 
 ---
 
@@ -504,32 +504,33 @@ Lightweight 2D graphics with HTML Canvas-like API. Immediate-mode drawing with G
 - Color support: RGBA, hex parsing, named colors
 - GPU-accelerated rendering via WebGPU
 
-**Tech**: Pure Go 1.25+ | **Status**: v0.28.3 Production-ready
+**Tech**: Pure Go 1.25+ | **Status**: v0.37.3 Production-ready (~194K LOC)
 
 ---
 
 #### [ui](https://github.com/gogpu/ui) - Enterprise GUI Toolkit
-> Pure Go GUI toolkit — reactive state, GPU-accelerated, 95% test coverage
+> Pure Go GUI toolkit — 22 widgets, 3 design systems, GPU rendering, 97%+ coverage
 
 [![Go Version](https://img.shields.io/github/go-mod/go-version/gogpu/ui?style=flat-square&logo=go)](https://github.com/gogpu/ui)
+[![GitHub release](https://img.shields.io/github/v/release/gogpu/ui?style=flat-square)](https://github.com/gogpu/ui/releases)
 [![Activity](https://img.shields.io/github/last-commit/gogpu/ui?style=flat-square&logo=github&label=activity)](https://github.com/gogpu/ui/commits)
 [![GitHub stars](https://img.shields.io/github/stars/gogpu/ui?style=flat-square&logo=github)](https://github.com/gogpu/ui/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/gogpu/ui?style=flat-square&logo=github)](https://github.com/gogpu/ui/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/gogpu/ui?style=flat-square&logo=github)](https://github.com/gogpu/ui/issues)
 [![GitHub PRs](https://img.shields.io/github/issues-pr/gogpu/ui?style=flat-square&logo=github&label=PRs)](https://github.com/gogpu/ui/pulls)
 
-Enterprise-grade GUI toolkit for professional applications like IDEs, design tools, and CAD software. Pure Go with WebGPU rendering, reactive signals-based state management, and comprehensive layout engines. **Launched:** January 2026
+Enterprise-grade GUI toolkit with 22 interactive widgets and 3 design systems (Material 3, Fluent, Cupertino). Pure Go with GPU-accelerated SDF rendering, reactive signals-based state management, and W3C Pointer Events. **Launched:** January 2026
 
 **Features**:
-- CGO-free pure Go implementation
-- WebGPU rendering backend (60fps GPU-accelerated)
-- Reactive state management via signals
-- Flexbox + Grid layout engines
-- Built-in virtualization support
-- IDE-style docking capabilities
-- ~10,261 lines of foundation code
+- 22 widgets: buttons, text fields, tables, trees, charts, docking, menus
+- 3 design systems: Material 3, Fluent, Cupertino (pluggable Painter pattern)
+- CGO-free pure Go implementation (~146K LOC)
+- GPU-accelerated SDF rendering, retained-mode with dirty tracking
+- 3,900+ tests, 97%+ coverage
+- Reactive state via Angular Signals pattern
+- Event-driven: 0% CPU when idle
 
-**Tech**: Pure Go 1.25+, WebGPU | **Status**: v0.0.x Foundation Phase | **Coverage**: 95%+
+**Tech**: Pure Go 1.25+, WebGPU | **Status**: v0.1.2 Released | **Coverage**: 97%+
 
 ---
 
@@ -554,7 +555,7 @@ Pure Go FFI-based WebGPU bindings via wgpu-native. Cross-platform GPU access wit
 - GPU timestamp queries and error scopes
 - 12 working examples (triangles, textures, 3D, compute shaders)
 
-**Tech**: Go 1.25+, wgpu-native v24.0.3.1 | **Status**: v0.3.0 Stable | **Platform**: Windows/Linux/macOS
+**Tech**: Go 1.25+, wgpu-native v24.0.3.1 | **Status**: v0.3.2 Stable | **Platform**: Windows/Linux/macOS
 
 ---
 
@@ -611,7 +612,7 @@ Building a production-ready ML framework for Go with zero Python dependencies.
 - **[born](https://github.com/born-ml/born)** - ML framework achieving 97-98% MNIST accuracy
   - Single-binary deployment, WebAssembly support
   - Auto-differentiation, multiple backends (CPU/GPU)
-  - `v0.7.9` | Production-ready, 83.8% coverage
+  - `v0.7.11` | Active development, 83.8% coverage
 
 ---
 
@@ -685,7 +686,7 @@ Type-safe, high-performance libraries for modern Go applications.
 - **[gxpdf](https://github.com/coregx/gxpdf)** - Enterprise PDF library
   - Create & read PDFs, 100% table extraction accuracy
   - TTF/OTF fonts, encryption, watermarks
-  - `v0.3.0` | Active development
+  - `v0.6.0` | Active development
 
 ---
 
@@ -702,38 +703,38 @@ Pure Go WebGPU ecosystem for graphics and compute workloads.
 
 ---
 
-#### **gogpu** - Pure Go Graphics Framework
-GPU power, Go simplicity — zero CGO graphics ecosystem.
+#### **gogpu** - Pure Go Graphics Framework (580K+ LOC, 415+ Stars)
+GPU power, Go simplicity — zero CGO graphics ecosystem. 5 GPU backends, 4 shader targets.
 
-- **[gogpu](https://github.com/gogpu/gogpu)** - Core graphics framework
+- **[gogpu](https://github.com/gogpu/gogpu)** - Core graphics framework (~42K LOC)
   - Zero CGO, no C compiler required
   - WebGPU backend, cross-platform (Windows/Linux/macOS)
   - Simple API inspired by raylib, Processing, Ebitengine
-  - `v0.19.1` | Production-ready
+  - `v0.24.4` | Production-ready
 
-- **[wgpu](https://github.com/gogpu/wgpu)** - Pure Go WebGPU implementation
+- **[wgpu](https://github.com/gogpu/wgpu)** - Pure Go WebGPU implementation (~124K LOC)
   - No wgpu-native, no Rust dependencies
-  - Direct GPU access: Vulkan, Metal, DirectX 12, OpenGL
+  - Direct GPU access: Vulkan, Metal, DirectX 12, OpenGL ES, Software
   - WASM-compatible for browser deployment
-  - `v0.16.3` | Production-ready
+  - `v0.21.3` | Production-ready
 
-- **[gg](https://github.com/gogpu/gg)** - GPU-accelerated 2D graphics
-  - Simple API like fogleman/gg but GPU-powered
+- **[gg](https://github.com/gogpu/gg)** - GPU-accelerated 2D graphics (~194K LOC)
+  - Enterprise-grade 2D graphics with GPU acceleration
   - Processing-style creative coding interface
   - Shapes, curves, text, images, gradients
-  - `v0.28.3` | Production-ready
+  - `v0.37.3` | Production-ready
 
-- **[naga](https://github.com/gogpu/naga)** - Pure Go shader compiler
+- **[naga](https://github.com/gogpu/naga)** - Pure Go shader compiler (~65K LOC)
   - Port of Rust naga to pure Go
-  - WGSL → SPIR-V, GLSL, HLSL, MSL
+  - WGSL → SPIR-V, GLSL, HLSL, MSL (4 targets)
   - Runtime shader generation, WASM support
-  - `v0.13.0` | Production-ready
+  - `v0.14.8` | Production-ready
 
-- **[ui](https://github.com/gogpu/ui)** - Enterprise GUI toolkit
-  - Reactive signals state management, WebGPU rendering
-  - Flexbox + Grid layouts, virtualization support
-  - GPU-accelerated 60fps, cross-platform
-  - `v0.0.x` | Foundation Phase, 95%+ coverage
+- **[ui](https://github.com/gogpu/ui)** - Enterprise GUI toolkit (~146K LOC)
+  - 22 widgets, 3 design systems (Material 3, Fluent, Cupertino)
+  - GPU-accelerated SDF rendering, reactive signals
+  - W3C Pointer Events, event-driven (0% CPU idle)
+  - `v0.1.2` | Released, 97%+ coverage, 3900+ tests
 
 ---
 
@@ -809,10 +810,11 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 34 (33 public + 1 private) |
+| **Total Projects** | 36 (35 public + 1 private) |
 | **Organizations** | 12 |
-| **Total Stars** | 1350+ |
-| **Total Forks** | 399+ |
+| **Total Stars** | 1500+ |
+| **Total Forks** | 410+ |
+| **In awesome-go** | 10 projects |
 | **Code Coverage** | 70-97% across projects |
 | **Linter Issues** | 0 (strict policy) |
 
@@ -821,18 +823,18 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 ## 🎯 Roadmap
 
 ### Q1 2026 (In Progress)
-- ✅ **gogpu v0.19.1** - Major progress (was v0.8.1)
-- ✅ **wgpu v0.16.3** - Major progress (was v0.7.1)
-- ✅ **gg v0.28.3** - Major progress (was v0.15.0)
-- ✅ **naga v0.13.0** - Major progress (was v0.6.0)
-- ✅ **coregex v0.12.3** - 121 stars, growing fast
+- ✅ **gogpu v0.24.4** - Major progress, 580K+ LOC ecosystem
+- ✅ **wgpu v0.16.17** - Major progress (was v0.7.1)
+- ✅ **gg v0.30.2** - Major progress (was v0.15.0)
+- ✅ **naga v0.14.3** - Major progress (was v0.6.0)
+- ✅ **coregex v0.12.3** - 124 stars, growing fast
 - ✅ **grpm v0.9.4** - Near-stable (was v0.2.0)
 - ✅ **racedetector v0.8.4** - Major progress (was v0.1.0)
 - 🔄 **relica v1.0.0** - Stable API target
 - 🔄 **fursy v1.0.0** - Stable API target
 
 ### Q2 2026
-- **gogpu v1.0.0** - Stable graphics framework
+- **gogpu v1.0.0** - Stable graphics framework (580K+ LOC, 22 widgets, 3 design systems)
 - **born v1.0.0** - Production ML framework
 - **grpm v1.0.0** - Production ready
 - **phoenix v0.3.0** - Signals integration
@@ -882,9 +884,9 @@ Available for consulting and contract work:
 
 ## 🌱 Current Focus
 
-- **GPU Graphics Ecosystem** - Building Go's first comprehensive GPU stack: graphics framework, WebGPU, shader compiler, GUI toolkit (**gogpu** — 333+ stars)
-- **High-Performance Regex** - Multi-engine regex with SIMD, approaching stdlib replacement quality (**coregex** — 121 stars, growing fast)
-- **ML for Go** - Production deep learning without Python dependencies (**born** — 40 stars)
+- **GPU Graphics Ecosystem** - Building Go's first comprehensive GPU stack: graphics framework, WebGPU, shader compiler, GUI toolkit (**gogpu** — 415+ stars, 580K+ LOC)
+- **High-Performance Regex** - Multi-engine regex with SIMD, approaching stdlib replacement quality (**coregex** — 124 stars, growing fast)
+- **ML for Go** - Production deep learning without Python dependencies (**born** — 44 stars)
 - **AI-Assisted Development** - Writing about Smart Coding methodology and building tools for disciplined AI collaboration
 - **Scientific Computing** - Pure Go implementations of HDF5, MATLAB, and causal discovery algorithms
 
