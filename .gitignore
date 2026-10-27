@@ -18,8 +18,33 @@ Thumbs.db
 .reference.md
 
 # Tool state
+.gode/
 .goda/
 .goco/
+.mcp.json
+
+# Build and test artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+/*.out
+*.prof
+coverage.out
+coverage.txt
+coverage.html
+*.bak
+*.orig
+/bin/
+/dist/
+/build/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
 
 # Logs
 *.log
