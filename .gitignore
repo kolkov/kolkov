@@ -9,11 +9,17 @@
 .DS_Store
 Thumbs.db
 
-# Claude AI - PRIVATE (never commit!)
-.claude/
+# Private, never published (anchored to the root: a bare name would hide public files elsewhere)
+/.claude/
+/.pm/
+/docs/dev/
+/tmp/
+/notes/
+.reference.md
+
+# Tool state
 .goda/
 .goco/
-docs/dev/
 
 # Logs
 *.log
@@ -22,13 +28,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Temporary files
-tmp/
 *.tmp
 *.temp
 .cache/
-
-# Personal notes
-notes/
-TODO.txt
-NOTES.md
-INDEX.md
