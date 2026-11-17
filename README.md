@@ -1,6 +1,6 @@
 # Hi there, I'm Andrey Kolkov 👋
 
-Go Systems Engineer | Open Source Architect | 35+ Projects, 1500+ Stars | 10 Projects in awesome-go
+Go Systems Engineer | Open Source Architect | 84 public repositories | 17 projects in awesome-go
 
 ---
 
@@ -13,13 +13,13 @@ Every project follows a strict quality bar: zero CGO dependencies, 70-95% test c
 ### Core Technologies
 
 **Backend & Systems**
-- **Go 1.25+** - Primary language, pure Go implementations (zero CGO)
+- **Go 1.27+** - Primary language, pure Go implementations (zero CGO)
 - **GPU Computing** - WebGPU, Vulkan, shader compilers
 - **High-Performance** - SIMD assembly, zero-allocation hot paths
 - **PostgreSQL, MySQL 8.0+, SQLite** - Database design and optimization
 
 **Frontend**
-- **Angular** (6-19+) - Component architecture, WYSIWYG editors
+- **Angular** - Component architecture, WYSIWYG editors
 - **TypeScript** - Type-safe development
 - **NX** - Monorepo tooling
 
@@ -27,13 +27,13 @@ Every project follows a strict quality bar: zero CGO dependencies, 70-95% test c
 - 70-95% code coverage across all projects
 - Zero linter issues policy (golangci-lint)
 - Pure Go — no CGO, easy cross-compilation
-- Type-safe APIs with Go 1.25+ generics
+- Type-safe APIs with Go generics
 
 ### From Enterprise to Open Source
 
-Most projects here started as battle-tested internal code. Over 2025-2026, I've been systematically extracting reusable components, refining them into standalone libraries, and publishing them. The result: 35+ projects across 12 organizations, covering GPU graphics, machine learning, scientific computing, web infrastructure, and system tools.
+Most projects here started as battle-tested internal code. Over 2025-2026, I've been systematically extracting reusable components, refining them into standalone libraries, and publishing them. The result: 84 public repositories, covering GPU graphics, machine learning, scientific computing, web infrastructure, and system tools.
 
-I write about AI-assisted development methodology on [dev.to](https://dev.to/kolkov) — including the concept of **Smart Coding**, a framework for disciplined AI collaboration that I introduced before Karpathy coined "Agentic Engineering".
+I write about AI-assisted development methodology on [dev.to](https://dev.to/kolkov) — including the concept of **Smart Coding**, a framework for disciplined AI collaboration.
 
 ---
 
@@ -79,7 +79,7 @@ A next-generation TUI framework featuring Domain-Driven Design architecture, per
 - Zero external dependencies
 - Cross-platform mouse & clipboard support
 
-**Tech**: Go 1.25+, DDD architecture | **Status**: Production-ready
+**Tech**: Go, DDD architecture | **Status**: Production-ready
 
 ---
 
@@ -94,15 +94,15 @@ A next-generation TUI framework featuring Domain-Driven Design architecture, per
 [![GitHub issues](https://img.shields.io/github/issues/scigolib/hdf5?style=flat-square&logo=github)](https://github.com/scigolib/hdf5/issues)
 [![GitHub PRs](https://img.shields.io/github/issues-pr/scigolib/hdf5?style=flat-square&logo=github&label=PRs)](https://github.com/scigolib/hdf5/pulls)
 
-Modern HDF5 library with no CGO dependencies. Passes 98.2% of official HDF5 test suite (380/387 files). Supports AI/ML datatypes (FP8, bfloat16) and achieves 10-250x faster hyperslab selections. **Launched:** November 2025
+Modern HDF5 library with no CGO dependencies. Reads 379 of the 383 valid files in the official HDF5 test suite (the other four need the family or multi-file driver). Supports AI/ML datatypes (FP8, bfloat16) and fast hyperslab selections. **Launched:** November 2025
 
 **Highlights**:
 - Zero C dependencies
 - Full HDF5 2.0.0 compatibility
-- Security hardening (4 CVEs fixed)
-- 86.1% code coverage
+- Security hardening, with fixes published as GitHub security advisories
+- 82-95% test coverage across packages
 
-**Tech**: Pure Go 1.25+ | **Status**: Production-ready
+**Tech**: Pure Go | **Status**: Production-ready
 
 ---
 
@@ -125,7 +125,7 @@ Solves the 10-year limitation where Go's race detector required C++ ThreadSaniti
 - 70+ tests, 45-92% coverage
 - Multiple research papers implemented
 
-**Tech**: Pure Go, AST instrumentation | **Status**: v0.8.4 Active development
+**Tech**: Pure Go, AST instrumentation | **Status**: Active development
 
 ---
 
@@ -148,7 +148,7 @@ Ultra-fast AWK interpreter leveraging coregex engine for dramatic performance ga
 - 4.7x faster regex field matching
 - NFA/DFA hybrid regex engine (coregex-powered)
 
-**Tech**: Pure Go 1.25+ | **Status**: v0.2.2 Active development
+**Tech**: Pure Go | **Status**: Active development
 
 ---
 
@@ -171,7 +171,7 @@ Zero production dependencies, type-safe reflection-based struct scanning. High p
 - Multiple JOIN types, CTEs, subqueries
 - 326+ tests, 93.3% coverage
 
-**Tech**: Pure Go 1.25+ | **Status**: Active development
+**Tech**: Pure Go | **Status**: Active development
 
 ---
 
@@ -194,7 +194,7 @@ Type-safe generic handlers using Box[Req, Res] pattern. High-performance routing
 - 8 middleware: Logger, Recovery, CORS, JWT, Rate limiting, Circuit breaker
 - Zero external dependencies for core routing
 
-**Tech**: Go 1.25+ | **Status**: Production-ready | **Coverage**: 93.1%
+**Tech**: Go | **Status**: Production-ready | **Coverage**: 93.1%
 
 ---
 
@@ -217,7 +217,7 @@ Angular Signals pattern for Go with zero-allocation hot paths (0.51 ns/op Signal
 - Effect batching for multiple updates
 - Angular API compatibility
 
-**Tech**: Go 1.25+ | **Status**: Stable | **Coverage**: 67.9%
+**Tech**: Go | **Status**: Stable | **Coverage**: 67.9%
 
 ---
 
@@ -242,7 +242,7 @@ Reliable message delivery with exponential backoff retry logic and automatic Dea
 - Standalone REST API microservice or embeddable library
 - Cloud-native with Docker support and health checks
 
-**Tech**: Go 1.25+ | **Status**: v0.1.0 | **Coverage**: 95.9%
+**Tech**: Go | **Coverage**: 95.9%
 
 ---
 
@@ -265,7 +265,7 @@ Production-ready SSE (RFC text/event-stream) and WebSocket (RFC 6455) implementa
 - Broadcasting hub for multi-client
 - 314 tests, 84.3% coverage
 
-**Tech**: Go 1.25+ | **Status**: Production-ready
+**Tech**: Go | **Status**: Production-ready
 
 ---
 
@@ -288,7 +288,7 @@ Multi-engine regex inspired by Rust's regex crate: Thompson NFA, Pike VM, one-pa
 - 30-50x faster log parsing with prefilters
 - SIMD memchr: 12.3x faster on 64KB input
 
-**Tech**: Go 1.25+, AMD64 SIMD | **Status**: v0.12.3 Production-ready
+**Tech**: Go, AMD64 SIMD | **Status**: Production-ready
 
 ---
 
@@ -311,12 +311,12 @@ High-performance Aho-Corasick multi-pattern string matching with 1.6 GB/s IsMatc
 - Zero allocations per search
 - Efficient for large pattern dictionaries
 
-**Tech**: Pure Go 1.25+ | **Status**: v0.1.0 Stable
+**Tech**: Pure Go | **Status**: Stable
 
 ---
 
 #### [gxpdf](https://github.com/coregx/gxpdf) - Enterprise PDF Library
-> Create and read PDF documents — 100% table extraction accuracy, DDD architecture
+> Full-lifecycle PDF library — parse, extract tables, generate, sign documents with zero CGO
 
 [![Go Version](https://img.shields.io/github/go-mod/go-version/coregx/gxpdf?style=flat-square&logo=go)](https://github.com/coregx/gxpdf)
 [![GitHub release](https://img.shields.io/github/v/release/coregx/gxpdf?style=flat-square)](https://github.com/coregx/gxpdf/releases)
@@ -326,19 +326,16 @@ High-performance Aho-Corasick multi-pattern string matching with 1.6 GB/s IsMatc
 [![GitHub issues](https://img.shields.io/github/issues/coregx/gxpdf?style=flat-square&logo=github)](https://github.com/coregx/gxpdf/issues)
 [![GitHub PRs](https://img.shields.io/github/issues-pr/coregx/gxpdf?style=flat-square&logo=github&label=PRs)](https://github.com/coregx/gxpdf/pulls)
 
-Modern PDF library with comprehensive creation and extraction capabilities. Industry-leading table extraction accuracy (100% on bank statements). Built with Domain-Driven Design principles. **Launched:** January 2026
+A Go library covering the full PDF lifecycle: read, parse, extract, generate, sign, verify. Features declarative Builder API (QuestPDF-inspired), digital signatures (PAdES B-B/B-T), AcroForm support, and table extraction verified at 100% accuracy on bank statements. **Launched:** January 2026
 
-**Creation Features**:
-- Text, graphics, gradients, complex tables with merged cells
-- TTF/OTF font embedding + 14 standard PDF fonts
-- RC4/AES encryption (40/128/256-bit)
-- Auto-generated table of contents, watermarks
+**Key Features**:
+- Declarative Builder API with 12-column grid and auto pagination
+- Digital signatures: PAdES B-B/B-T with RSA/ECDSA
+- AcroForm: create, fill, and flatten interactive forms
+- Table extraction with 100% accuracy, export to CSV/JSON/Excel
+- RC4/AES encryption (40/128/256-bit), full Unicode (TTF/OTF, Cyrillic, CJK)
 
-**Extraction Features**:
-- Table extraction with 100% accuracy
-- Text/image extraction, CSV/JSON/Excel export
-
-**Tech**: Pure Go 1.25+, DDD | **Status**: v0.6.0 Active development
+**Tech**: Pure Go | **Status**: Active development
 
 ---
 
@@ -361,7 +358,7 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 - Optimizers: SGD with momentum, Adam
 - WebAssembly support for browser inference
 
-**Tech**: Go 1.25+ | **Status**: v0.7.11 Active development | **Coverage**: 83.8%
+**Tech**: Go | **Status**: Active development | **Coverage**: 83.8%
 
 ---
 
@@ -384,7 +381,7 @@ Single-binary deployment ML framework. MNIST accuracy: 97.44% (MLP), 98.18% (CNN
 - Tab completion and multi-line input
 - Viewport scrolling and visual help
 
-**Tech**: Go 1.25+ | **Status**: Beta | **Target**: Q1 2026 stable
+**Tech**: Go | **Status**: Beta
 
 ---
 
@@ -408,7 +405,7 @@ Modern Portage replacement for Gentoo Linux. SAT-based conflict-free dependency 
 - Daemon architecture (gRPC + REST API)
 - Namespace-based build sandboxing
 
-**Tech**: Go 1.25+, SAT solver, gRPC | **Status**: v0.9.4 Active development
+**Tech**: Go, SAT solver, gRPC | **Status**: Active development
 
 ---
 
@@ -423,16 +420,16 @@ Modern Portage replacement for Gentoo Linux. SAT-based conflict-free dependency 
 [![GitHub issues](https://img.shields.io/github/issues/gogpu/gogpu?style=flat-square&logo=github)](https://github.com/gogpu/gogpu/issues)
 [![GitHub PRs](https://img.shields.io/github/issues-pr/gogpu/gogpu?style=flat-square&logo=github&label=PRs)](https://github.com/gogpu/gogpu/pulls)
 
-High-level graphics framework that simplifies GPU programming. Dual backend architecture: Rust (wgpu-native via FFI) for performance or Pure Go for zero dependencies. Reduces WebGPU complexity from 480+ lines to ~20 lines. **Launched:** December 2025
+High-level graphics framework that simplifies GPU programming. Three backends through gogpu/wgpu: pure Go by default, Rust FFI behind a build tag, and browser WASM. Reduces WebGPU complexity from 480+ lines to ~20 lines. **Launched:** December 2025
 
 **Features**:
-- Dual backends: wgpu-native (Rust FFI) or Pure Go implementation
-- Zero CGO requirement (with Go backend)
+- Three backends: pure Go (default), Rust FFI with `-tags rust`, browser WASM
+- Zero CGO on the pure Go backend
 - Simple API inspired by raylib, Processing, Ebitengine
 - Cross-platform: Windows, Linux, macOS
-- Full ecosystem: graphics (gogpu), 2D API (gg), shaders (naga), GUI (ui)
+- Full ecosystem: graphics (gogpu), 2D API (gg), 3D (g3d), shaders (naga), GUI (ui)
 
-**Tech**: Go 1.25+, WebGPU | **Status**: v0.24.4 Production-ready | **Ecosystem**: 580K+ LOC pure Go
+**Tech**: Go, WebGPU | **Status**: Production-ready | **Ecosystem**: 1.4M+ LOC of pure Go (scc, total lines)
 
 ---
 
@@ -447,7 +444,7 @@ High-level graphics framework that simplifies GPU programming. Dual backend arch
 [![GitHub issues](https://img.shields.io/github/issues/gogpu/wgpu?style=flat-square&logo=github)](https://github.com/gogpu/wgpu/issues)
 [![GitHub PRs](https://img.shields.io/github/issues-pr/gogpu/wgpu?style=flat-square&logo=github&label=PRs)](https://github.com/gogpu/wgpu/pulls)
 
-Full WebGPU implementation without Rust/wgpu-native dependencies. Multi-backend: Vulkan 1.3, OpenGL ES, Software (CPU). W3C WebGPU spec compliant with type-safe GPU access. **Launched:** December 2025
+Full WebGPU implementation without Rust/wgpu-native dependencies. Five backends: Vulkan 1.3, Metal, DirectX 12, OpenGL ES and Software (CPU). W3C WebGPU spec compliant with type-safe GPU access. **Launched:** December 2025
 
 **Features**:
 - 100+ texture formats, comprehensive GPU type definitions
@@ -455,8 +452,9 @@ Full WebGPU implementation without Rust/wgpu-native dependencies. Multi-backend:
 - Production-ready Vulkan backend (~27K lines of code)
 - Headless rendering via software backend (CI/CD ready)
 - Generic ID system with epoch-based memory safety
+- Small public surface: the root package, a thin `hal` for backend access and `wgputest`; the implementation lives in internal packages
 
-**Tech**: Go 1.25+, Vulkan/OpenGL/Software | **Status**: v0.21.3 Production-ready (~124K LOC)
+**Tech**: Go, Vulkan/Metal/DX12/OpenGL/Software | **Status**: Production-ready
 
 ---
 
@@ -480,7 +478,7 @@ Complete WGSL shader compiler generating Vulkan-compatible SPIR-V bytecode. Full
 - Vertex, fragment, and compute shaders
 - Comprehensive error reporting and validation
 
-**Tech**: Go 1.25+, WGSL → SPIR-V/MSL/GLSL/HLSL | **Status**: v0.14.8 Production-ready (~65K LOC)
+**Tech**: Go, WGSL → SPIR-V/MSL/GLSL/HLSL | **Status**: Production-ready
 
 ---
 
@@ -504,7 +502,7 @@ Lightweight 2D graphics with HTML Canvas-like API. Immediate-mode drawing with G
 - Color support: RGBA, hex parsing, named colors
 - GPU-accelerated rendering via WebGPU
 
-**Tech**: Pure Go 1.25+ | **Status**: v0.37.3 Production-ready (~194K LOC)
+**Tech**: Pure Go | **Status**: Production-ready
 
 ---
 
@@ -524,13 +522,13 @@ Enterprise-grade GUI toolkit with 22 interactive widgets and 3 design systems (M
 **Features**:
 - 22 widgets: buttons, text fields, tables, trees, charts, docking, menus
 - 3 design systems: Material 3, Fluent, Cupertino (pluggable Painter pattern)
-- CGO-free pure Go implementation (~146K LOC)
+- CGO-free pure Go implementation
 - GPU-accelerated SDF rendering, retained-mode with dirty tracking
 - 3,900+ tests, 97%+ coverage
 - Reactive state via Angular Signals pattern
 - Event-driven: 0% CPU when idle
 
-**Tech**: Pure Go 1.25+, WebGPU | **Status**: v0.1.2 Released | **Coverage**: 97%+
+**Tech**: Pure Go, WebGPU | **Status**: Released | **Coverage**: 97%+
 
 ---
 
@@ -555,7 +553,7 @@ Pure Go FFI-based WebGPU bindings via wgpu-native. Cross-platform GPU access wit
 - GPU timestamp queries and error scopes
 - 12 working examples (triangles, textures, 3D, compute shaders)
 
-**Tech**: Go 1.25+, wgpu-native v24.0.3.1 | **Status**: v0.3.2 Stable | **Platform**: Windows/Linux/macOS
+**Tech**: Go, wgpu-native FFI | **Status**: Stable | **Platform**: Windows/Linux/macOS
 
 ---
 
@@ -578,7 +576,7 @@ Read/write MATLAB files without CGO dependencies. Supports all numeric types, co
 - Pure Go HDF5 implementation
 - Cross-platform compatibility
 
-**Tech**: Pure Go 1.25+ | **Status**: v0.3.4 Production-ready
+**Tech**: Pure Go | **Status**: Production-ready
 
 ---
 
@@ -600,7 +598,7 @@ Zero memory allocations (0 B/op, 0 allocs/op) with Unicode 16.0 support. Tiered 
 - 4-14x faster for CJK
 - 6-8x faster for mixed/emoji
 
-**Tech**: Go 1.25+ | **Status**: v0.2.0 Stable Production-ready | **Coverage**: 87.1%
+**Tech**: Go | **Status**: Stable Production-ready | **Coverage**: 87.1%
 
 ---
 
@@ -612,7 +610,7 @@ Building a production-ready ML framework for Go with zero Python dependencies.
 - **[born](https://github.com/born-ml/born)** - ML framework achieving 97-98% MNIST accuracy
   - Single-binary deployment, WebAssembly support
   - Auto-differentiation, multiple backends (CPU/GPU)
-  - `v0.7.11` | Active development, 83.8% coverage
+  - Active development, 83.8% coverage
 
 ---
 
@@ -638,12 +636,12 @@ High-performance implementations of causal discovery and statistical learning al
   - Visualization exports (PNG/SVG/PDF)
   - CLI tool for graph generation
 
-  **Tech**: Pure Go 1.25+, Gonum | **Status**: v0.6.0 | **Coverage**: 97.2%
+  **Tech**: Pure Go, Gonum | **Coverage**: 97.2%
 
 - **[lasso](https://github.com/CausalGo/lasso)** - Parallel LASSO regression
   - Coordinate descent with goroutines
   - ~25ms on 10K samples with 100 features
-  - `v0.2.1` | Production-ready
+  - Production-ready
 
 ---
 
@@ -653,40 +651,44 @@ Type-safe, high-performance libraries for modern Go applications.
 - **[relica](https://github.com/coregx/relica)** - Type-safe database query builder
   - Zero production dependencies, 3.3x faster batch operations
   - PostgreSQL, MySQL, SQLite support
-  - `v0.9.1` | Production-ready, 93.3% coverage
+  - Production-ready, 93.3% coverage
 
 - **[fursy](https://github.com/coregx/fursy)** - Next-gen HTTP router
   - Type-safe handlers, ~10M req/s throughput
   - Built-in OpenAPI 3.1 generation, RFC 9457 errors
-  - `v0.3.3` | Production-ready, 93.1% coverage
+  - Production-ready, 93.1% coverage
 
 - **[stream](https://github.com/coregx/stream)** - Real-time communications
   - RFC-compliant SSE & WebSocket, <100μs latency
   - Zero external dependencies
-  - `v0.1.0` | 314 tests, 84.3% coverage
+  - 314 tests, 84.3% coverage
 
 - **[signals](https://github.com/coregx/signals)** - Reactive state management
   - Angular Signals pattern, zero-allocation hot paths
   - 0.51 ns/op Signal.Get
-  - `v0.1.0` | 51 tests, 67.9% coverage
+  - 51 tests, 67.9% coverage
 
 - **[pubsub](https://github.com/coregx/pubsub)** - Publish-Subscribe messaging
   - Guaranteed delivery with exponential backoff retry
   - Dead Letter Queue for failed messages
   - Battle-tested in FreiCON Railway Management System
-  - `v0.1.0` | 95.9% coverage, Stable
+  - 95.9% coverage, Stable
 
 - **[coregex](https://github.com/coregx/coregex)** - See Featured Projects above
 
 - **[ahocorasick](https://github.com/coregx/ahocorasick)** - Multi-pattern string matching
   - Aho-Corasick algorithm, 1.6 GB/s throughput
   - Zero allocations per search
-  - `v0.1.0` | Stable
+  - Stable
 
 - **[gxpdf](https://github.com/coregx/gxpdf)** - Enterprise PDF library
   - Create & read PDFs, 100% table extraction accuracy
   - TTF/OTF fonts, encryption, watermarks
-  - `v0.6.0` | Active development
+  - Active development
+
+- **[opt](https://github.com/coregx/opt)** - Optional types
+  - Generic-first SQL and JSON nullable types
+  - Three-state PATCH support (absent, null, value)
 
 ---
 
@@ -699,42 +701,71 @@ Pure Go WebGPU ecosystem for graphics and compute workloads.
   - Call C libraries without CGO
   - 88-114ns FFI call overhead
   - Platform-specific assembly optimizations
-  - `v0.3.8` | 87.1% coverage, Production-ready
+  - 87.1% coverage, Production-ready
 
 ---
 
-#### **gogpu** - Pure Go Graphics Framework (580K+ LOC, 415+ Stars)
+#### **gogpu** - Pure Go Graphics Framework
 GPU power, Go simplicity — zero CGO graphics ecosystem. 5 GPU backends, 4 shader targets.
 
-- **[gogpu](https://github.com/gogpu/gogpu)** - Core graphics framework (~42K LOC)
+- **[gogpu](https://github.com/gogpu/gogpu)** - Core graphics framework
   - Zero CGO, no C compiler required
   - WebGPU backend, cross-platform (Windows/Linux/macOS)
   - Simple API inspired by raylib, Processing, Ebitengine
-  - `v0.24.4` | Production-ready
+  - Production-ready
 
-- **[wgpu](https://github.com/gogpu/wgpu)** - Pure Go WebGPU implementation (~124K LOC)
+- **[wgpu](https://github.com/gogpu/wgpu)** - Pure Go WebGPU implementation
   - No wgpu-native, no Rust dependencies
   - Direct GPU access: Vulkan, Metal, DirectX 12, OpenGL ES, Software
   - WASM-compatible for browser deployment
-  - `v0.21.3` | Production-ready
+  - Production-ready
 
-- **[gg](https://github.com/gogpu/gg)** - GPU-accelerated 2D graphics (~194K LOC)
+- **[gg](https://github.com/gogpu/gg)** - GPU-accelerated 2D graphics
   - Enterprise-grade 2D graphics with GPU acceleration
   - Processing-style creative coding interface
   - Shapes, curves, text, images, gradients
-  - `v0.37.3` | Production-ready
+  - Production-ready
 
-- **[naga](https://github.com/gogpu/naga)** - Pure Go shader compiler (~65K LOC)
+- **[naga](https://github.com/gogpu/naga)** - Pure Go shader compiler
   - Port of Rust naga to pure Go
-  - WGSL → SPIR-V, GLSL, HLSL, MSL (4 targets)
+  - WGSL → SPIR-V, MSL, GLSL, HLSL (4 targets), and SPIR-V back into WGSL
   - Runtime shader generation, WASM support
-  - `v0.14.8` | Production-ready
+  - Production-ready
 
-- **[ui](https://github.com/gogpu/ui)** - Enterprise GUI toolkit (~146K LOC)
+- **[ui](https://github.com/gogpu/ui)** - Enterprise GUI toolkit
   - 22 widgets, 3 design systems (Material 3, Fluent, Cupertino)
   - GPU-accelerated SDF rendering, reactive signals
   - W3C Pointer Events, event-driven (0% CPU idle)
-  - `v0.1.2` | Released, 97%+ coverage, 3900+ tests
+  - 97%+ coverage, 3900+ tests
+
+The supporting libraries the stack is built from:
+
+- **[gpucontext](https://github.com/gogpu/gpucontext)** - Shared GPU infrastructure
+  - Device provider, event source (keyboard, mouse, IME), backend registry
+
+- **[gputypes](https://github.com/gogpu/gputypes)** - WebGPU type definitions
+  - Vertex formats, blend states, bind group layouts, texture-format helpers
+
+- **[galloc](https://github.com/gogpu/galloc)** - GPU memory sub-allocation
+  - O(1) offset allocator, zero dependencies
+
+- **[g3d](https://github.com/gogpu/g3d)** - 3D rendering
+  - Scene graph, PBR materials, GLTF loading, built on wgpu
+
+- **[systray](https://github.com/gogpu/systray)** - System tray
+  - Windows, macOS and Linux, zero CGO
+
+- **[audio](https://github.com/gogpu/audio)** - Audio engine
+  - WASAPI, CoreAudio and PulseAudio backends
+
+- **[compose](https://github.com/gogpu/compose)** - Multi-process composition
+  - Independent processes render into offscreen buffers
+
+- **[editor](https://github.com/gogpu/editor)** - Text and code editor widget
+  - GPU-accelerated and embeddable
+
+- **[gg-svg](https://github.com/gogpu/gg-svg)** / **[gg-pdf](https://github.com/gogpu/gg-pdf)** - Export backends for gg
+  - SVG and PDF output from gg's recording system
 
 ---
 
@@ -746,7 +777,7 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 - **[matlab](https://github.com/scigolib/matlab)** - MATLAB file format library
   - Read/write .mat files (v5-v7.3+)
   - Pure Go, no CGO
-  - `v0.3.4` | Production-ready
+  - Production-ready
 
 ---
 
@@ -761,20 +792,32 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 - **[gosh](https://github.com/grpmsoft/gosh)** - Modern cross-platform shell
   - 4 UI modes: Classic, Warp, Compact, Chat
   - Native POSIX script execution, Git integration
-  - `v0.1.0-beta.7` | Targeting stable Q1 2026
+  - Targeting a stable release
 
 - **[grpm](https://github.com/grpmsoft/grpm)** - Next-gen package manager
   - SAT solver, daemon architecture (gRPC/REST)
   - Transactional updates via Btrfs/ZFS snapshots
-  - `v0.9.4` | Active development
+  - Active development
+
+- **[daemon](https://github.com/grpmsoft/daemon)** - Process lifecycle for shared background services
+  - On-demand start, sharing between callers, idle shutdown
+  - Pure Go, zero CGO, zero dependencies
+
+- **[emcp-go](https://github.com/grpmsoft/emcp-go)** - Enterprise MCP extensions for Go
+  - Client and server on the official MCP SDK, HTTP and gRPC transports
 
 ---
 
-#### **irismail** - Email Infrastructure
+#### **go-ozzo** - Go libraries, maintained
 
-- **[iris](https://github.com/irismail/iris)** - 🔒 Private (launching Q2 2026)
-  - IrisMX modern mail exchange server
-  - Modern SMTP/IMAP/POP3 implementation
+The [go-ozzo](https://github.com/go-ozzo) organization holds Go libraries by Qiang Xue. I have maintained them since 2026: issues answered, PRs reviewed and released, no API rewrites.
+
+- **[ozzo-validation](https://github.com/go-ozzo/ozzo-validation)** - Idiomatic, configurable validation
+- **[ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx)** - Database access on top of `database/sql`
+- **[ozzo-routing](https://github.com/go-ozzo/ozzo-routing)** - Fast HTTP router with regexp routes
+- **[ozzo-config](https://github.com/go-ozzo/ozzo-config)** - Layered application configuration
+- **[ozzo-di](https://github.com/go-ozzo/ozzo-di)** - Dependency injection container
+- **[ozzo-log](https://github.com/go-ozzo/ozzo-log)** - Asynchronous logging with message filtering
 
 ---
 
@@ -783,13 +826,14 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 - **[uniwidth](https://github.com/unilibs/uniwidth)** - Unicode width calculation
   - 3.9-46x faster than go-runewidth
   - Zero allocations
-  - `v0.2.0` | 87.1% coverage, Stable
+  - 87.1% coverage, Stable
 
 ---
 
 ### 🛠️ Utility Libraries
 
 #### Angular Components
+- **[ngx-gallery](https://github.com/kolkov/ngx-gallery)** - Responsive native gallery component for Angular
 - **[ngx-dadata](https://github.com/kolkov/ngx-dadata)** - DaData address autocomplete for Angular
 
 #### Go Validation Libraries
@@ -806,45 +850,41 @@ Building Go's scientific computing ecosystem with pure Go implementations.
 
 ---
 
+### 🌍 Built with these libraries
+
+Projects by other people that use the stack. They are their authors' work, not mine — listed because a real
+application is the best documentation a library can get.
+
+- **[ironwail-go](https://github.com/darkliquid/ironwail-go)** — a port of the Quake engine to pure Go
+  (`CGO_ENABLED=0`) built on gogpu, with a [write-up of the port](https://github.com/darkliquid/ironwail-go/blob/main/article/ironwail_go.md).
+  The write-up describes the stack as of April 2026; the project tracks recent releases.
+
+---
+
 ## 📊 Statistics
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 36 (35 public + 1 private) |
-| **Organizations** | 12 |
-| **Total Stars** | 1500+ |
-| **Total Forks** | 410+ |
-| **In awesome-go** | 10 projects |
+| **Public repositories** | 84 |
+| **Organizations** | 17 owner accounts (16 organizations and the personal one) |
+| **Stars** | 9,000+ across public repositories, 3,400+ on projects written here (the rest are go-ozzo libraries by Qiang Xue, which I maintain) |
+| **In awesome-go** | 17 projects |
 | **Code Coverage** | 70-97% across projects |
 | **Linter Issues** | 0 (strict policy) |
 
+As of 2026-11-16, from the GitHub API. Live per-project numbers are in the badges above; LOC is `scc` total lines.
+
 ---
 
-## 🎯 Roadmap
+## 🎯 What I'm working on
 
-### Q1 2026 (In Progress)
-- ✅ **gogpu v0.24.4** - Major progress, 580K+ LOC ecosystem
-- ✅ **wgpu v0.16.17** - Major progress (was v0.7.1)
-- ✅ **gg v0.30.2** - Major progress (was v0.15.0)
-- ✅ **naga v0.14.3** - Major progress (was v0.6.0)
-- ✅ **coregex v0.12.3** - 124 stars, growing fast
-- ✅ **grpm v0.9.4** - Near-stable (was v0.2.0)
-- ✅ **racedetector v0.8.4** - Major progress (was v0.1.0)
-- 🔄 **relica v1.0.0** - Stable API target
-- 🔄 **fursy v1.0.0** - Stable API target
+- **gogpu** - the GPU stack: the framework, the pure Go WebGPU implementation, the shader compiler (which now reads SPIR-V as well as writing it), the 2D and 3D renderers, the GUI toolkit and the support libraries around them.
+- **coregex** - a regex engine that can replace the standard library on hot paths.
+- **born** - deep learning in Go without Python.
+- **scigolib** - HDF5 and MATLAB file formats in pure Go, both used by real scientific code.
+- **Writing** - the Smart Coding methodology and what building the GPU stack teaches about working with AI agents.
 
-### Q2 2026
-- **gogpu v1.0.0** - Stable graphics framework (580K+ LOC, 22 widgets, 3 design systems)
-- **born v1.0.0** - Production ML framework
-- **grpm v1.0.0** - Production ready
-- **phoenix v0.3.0** - Signals integration
-- **ui v0.1.0** - Pure Go GUI toolkit
-
-### Q3 2026
-- **wgpu v1.0.0** - Stable Pure Go WebGPU
-- **coregex v1.0.0** - Stable regex engine
-- **hdf5 v1.0.0** - Full HDF5 compliance
-- **racedetector v1.0.0** - Stable release
+No dates and no promised versions: what is released is in the badges, what is not is still being worked on.
 
 ---
 
@@ -866,7 +906,7 @@ Available for consulting and contract work:
 
 - **Quality over quantity** - Every project is production-ready with high test coverage
 - **Pure Go** - Zero CGO dependencies, easy cross-compilation
-- **Type safety** - Go 1.25+ generics for compile-time guarantees
+- **Type safety** - Go generics for compile-time guarantees
 - **Battle-tested** - Most libraries extracted from real production systems
 - **AI-augmented development** - Using [Smart Coding](https://dev.to/kolkov/smart-coding-vs-vibe-coding-engineering-discipline-in-the-age-of-ai-5b20) methodology for disciplined collaboration with AI agents
 
@@ -876,19 +916,9 @@ Available for consulting and contract work:
 
 - **GitHub**: [@kolkov](https://github.com/kolkov)
 - **Dev.to**: [kolkov](https://dev.to/kolkov) — articles on Smart Coding and AI-assisted development
-- **Organizations**: [gogpu](https://github.com/gogpu) | [coregx](https://github.com/coregx) | [born-ml](https://github.com/born-ml) | [scigolib](https://github.com/scigolib) | [phoenix-tui](https://github.com/phoenix-tui) | [go-webgpu](https://github.com/go-webgpu) | [CausalGo](https://github.com/CausalGo) | [grpmsoft](https://github.com/grpmsoft) | [unilibs](https://github.com/unilibs)
+- **Organizations**: [gogpu](https://github.com/gogpu) | [coregx](https://github.com/coregx) | [scigolib](https://github.com/scigolib) | [born-ml](https://github.com/born-ml) | [go-webgpu](https://github.com/go-webgpu) | [phoenix-tui](https://github.com/phoenix-tui) | [CausalGo](https://github.com/CausalGo) | [grpmsoft](https://github.com/grpmsoft) | [unilibs](https://github.com/unilibs) | [go-ozzo](https://github.com/go-ozzo) | [goprerender](https://github.com/goprerender)
 
 **Open to**: Consulting, open source collaboration, technical partnerships
-
----
-
-## 🌱 Current Focus
-
-- **GPU Graphics Ecosystem** - Building Go's first comprehensive GPU stack: graphics framework, WebGPU, shader compiler, GUI toolkit (**gogpu** — 415+ stars, 580K+ LOC)
-- **High-Performance Regex** - Multi-engine regex with SIMD, approaching stdlib replacement quality (**coregex** — 124 stars, growing fast)
-- **ML for Go** - Production deep learning without Python dependencies (**born** — 44 stars)
-- **AI-Assisted Development** - Writing about Smart Coding methodology and building tools for disciplined AI collaboration
-- **Scientific Computing** - Pure Go implementations of HDF5, MATLAB, and causal discovery algorithms
 
 ---
 
